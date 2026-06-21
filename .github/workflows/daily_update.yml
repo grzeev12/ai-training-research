@@ -22,10 +22,18 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install yt-dlp python-docx python-dotenv
+        run: pip install yt-dlp python-docx python-dotenv openai requests
 
       - name: Search YouTube for top tutorials
         run: python youtube_researcher.py
+
+      - name: Search for stronger courses and update overrides
+        env:
+          SERPER_API_KEY:    ${{ secrets.SERPER_API_KEY }}
+          OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:  ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python course_updater.py
 
       - name: Regenerate website
         run: python generate_website.py
@@ -34,6 +42,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html output/youtube_research.json
+          git add docs/index.html output/youtube_research.json data/overrides.json
           git diff --staged --quiet || git commit -m "chore: daily update $(date +'%Y-%m-%d')"
           git push

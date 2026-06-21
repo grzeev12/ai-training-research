@@ -8,10 +8,32 @@ Usage:
     venv/bin/python3 generate_website.py
 """
 
-import os, html as html_mod
-from generate_report import TOOLS, INTRO
+import os, json, copy, html as html_mod
+from pathlib import Path
+from generate_report import TOOLS as _BASE_TOOLS, INTRO
 
-OUTPUT_HTML  = os.path.join(os.path.dirname(__file__), "docs", "index.html")
+OUTPUT_HTML    = os.path.join(os.path.dirname(__file__), "docs", "index.html")
+OVERRIDES_FILE = Path(__file__).parent / "data" / "overrides.json"
+
+
+def _apply_overrides(tools):
+    """Merge data/overrides.json on top of the base course list."""
+    if not OVERRIDES_FILE.exists():
+        return tools
+    try:
+        data = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return tools
+    override_map = {o["replace_url"]: o["new_course"] for o in data.get("overrides", [])}
+    if not override_map:
+        return tools
+    tools = copy.deepcopy(tools)
+    for tool in tools:
+        tool["courses"] = [override_map.get(c["url"], c) for c in tool["courses"]]
+    return tools
+
+
+TOOLS = _apply_overrides(_BASE_TOOLS)
 
 TOOL_COLORS = {
     "01": {"bg": "#1a73e8", "light": "#e8f0fe", "label": "Google"},
