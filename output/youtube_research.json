@@ -1,0 +1,132 @@
+{
+  "Gemini Enterprise (Google)": [
+    {
+      "title": "Master 85% of Google Gemini in 12 Minutes",
+      "channel": "Jeff Su",
+      "views": 771942,
+      "views_fmt": "772K",
+      "duration": "11:50",
+      "url": "https://www.youtube.com/watch?v=Uy6LcpyGj7w"
+    },
+    {
+      "title": "How To Master Google Gemini in 2026 (Free Course)",
+      "channel": "Paul J Lipsky",
+      "views": 425758,
+      "views_fmt": "426K",
+      "duration": "34:46",
+      "url": "https://www.youtube.com/watch?v=-_FizlRlfYs"
+    },
+    {
+      "title": "Master Gemini 3.1 for Work in 12 Minutes (2026)",
+      "channel": "Jeff Su",
+      "views": 365458,
+      "views_fmt": "365K",
+      "duration": "12:58",
+      "url": "https://www.youtube.com/watch?v=bTLmt9BKGVc"
+    }
+  ],
+  "ChatGPT Enterprise (OpenAI)": [
+    {
+      "title": "ChatGPT for Beginners - 2026 Edition",
+      "channel": "AI Mastermind",
+      "views": 508081,
+      "views_fmt": "508K",
+      "duration": "16:31",
+      "url": "https://www.youtube.com/watch?v=hOe0maWOhp8"
+    },
+    {
+      "title": "How to Create Custom GPT | OpenAI Tutorial",
+      "channel": "Kevin Stratvert",
+      "views": 483318,
+      "views_fmt": "483K",
+      "duration": "20:26",
+      "url": "https://www.youtube.com/watch?v=0Q1AQAxpdGg"
+    },
+    {
+      "title": "ChatGPT Tutorial: 35 Tips I Wish I Knew Sooner",
+      "channel": "Matt Wolfe",
+      "views": 314976,
+      "views_fmt": "315K",
+      "duration": "38:59",
+      "url": "https://www.youtube.com/watch?v=WTF5qphyy8w"
+    }
+  ],
+  "Claude Enterprise (Anthropic)": [
+    {
+      "title": "Mastering Claude Code in 30 minutes",
+      "channel": "Anthropic",
+      "views": 1418443,
+      "views_fmt": "1.4M",
+      "duration": "28:07",
+      "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0"
+    },
+    {
+      "title": "Claude Code - Full Tutorial for Beginners",
+      "channel": "Tech With Tim",
+      "views": 1252719,
+      "views_fmt": "1.3M",
+      "duration": "35:49",
+      "url": "https://www.youtube.com/watch?v=ntDIxaeo3Wg"
+    },
+    {
+      "title": "Claude Code Tutorial for Beginners",
+      "channel": "Kevin Stratvert",
+      "views": 873164,
+      "views_fmt": "873K",
+      "duration": "14:44",
+      "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY"
+    }
+  ],
+  "Microsoft Azure AI Foundry": [
+    {
+      "title": "Introducing Azure AI Foundry - Everything you need for AI development",
+      "channel": "Microsoft Mechanics",
+      "views": 253610,
+      "views_fmt": "254K",
+      "duration": "12:54",
+      "url": "https://www.youtube.com/watch?v=GD7MnIwAxYM"
+    },
+    {
+      "title": "Microsoft Foundry - AI app & agent factory",
+      "channel": "Microsoft Mechanics",
+      "views": 159674,
+      "views_fmt": "160K",
+      "duration": "12:08",
+      "url": "https://www.youtube.com/watch?v=C6rxEGJay70"
+    },
+    {
+      "title": "Azure AI Foundry Overview",
+      "channel": "John Savill's Technical Training",
+      "views": 139188,
+      "views_fmt": "139K",
+      "duration": "1:27:35",
+      "url": "https://www.youtube.com/watch?v=Sq8Cq7RZM2o"
+    }
+  ],
+  "Amazon Bedrock (AWS)": [
+    {
+      "title": "Integrating Generative AI Models with Amazon Bedrock",
+      "channel": "AWS Developers",
+      "views": 495494,
+      "views_fmt": "495K",
+      "duration": "14:19",
+      "url": "https://www.youtube.com/watch?v=nSQrY-uPWLY"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Tutorial | Build, Deploy, Operate AI Agents using AgentCore",
+      "channel": "codebasics",
+      "views": 82984,
+      "views_fmt": "83K",
+      "duration": "57:30",
+      "url": "https://www.youtube.com/watch?v=cTBGIKAckKE"
+    },
+    {
+      "title": "Enterprise AI Tutorial – Embeddings, RAG, and Multimodal Agents Using Amazon Nova and Bedrock",
+      "channel": "freeCodeCamp.org",
+      "views": 45683,
+      "views_fmt": "46K",
+      "duration": "5:36:23",
+      "url": "https://www.youtube.com/watch?v=HaUe2AN210g"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+name: Daily AI Training Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 09:00 Israel time (UTC+3 summer)
+  workflow_dispatch:        # allow manual run from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yt-dlp python-docx python-dotenv
+
+      - name: Search YouTube for top tutorials
+        run: python youtube_researcher.py
+
+      - name: Regenerate website
+        run: python generate_website.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html output/youtube_research.json
+          git diff --staged --quiet || git commit -m "chore: daily update $(date +'%Y-%m-%d')"
+          git push
