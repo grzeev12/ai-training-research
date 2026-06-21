@@ -1,6 +1,6 @@
 ================================================================================
   AI TRAINING RESEARCH — README
-  עודכן לאחרונה: 2026-06-21 (v6 — פרסום ב-Vercel)
+  עודכן לאחרונה: 2026-06-21 (v7 — 50 קורסים, 10 לכל כלי)
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -314,6 +314,19 @@
     - טבלת 25 URLs הורחבה: כל URL מציג כעת שם אתר קריא + כתובת מלאה עם https://
     - תיקון URL של Microsoft Learn (היה 404): learn.microsoft.com/training/azure/ai-foundry
       → learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps (עודכן מאי 2026)
+  v6 (2026-06-21):
+    - פרסום ב-Vercel: https://ai-training-research.vercel.app
+    - פילטר רמות: מתחיל / בינוני / מפתחים (client-side JS)
+    - GitHub Actions: עדכון אוטומטי כל יום 09:00
+  v7 (2026-06-21):
+    - הרחבה ל-50 קורסים — 10 לכל כלי
+    - Gemini: Google AI Essentials (1.8M), ML Crash Course, Gemini API Hub
+    - ChatGPT: GenAI for Everyone (Andrew Ng, 806K), Prompt Eng (Vanderbilt, 687K),
+               Business Thinkers, LangChain, OpenAI Cookbook
+    - Claude: Agent Skills, Prompt Eng with Claude v3 (DeepLearning.AI), Anthropic GitHub
+    - Azure: M365 Copilot Get Started, GitHub Copilot, Azure OpenAI dev path
+    - Bedrock: Serverless LLM Apps (DeepLearning.AI), AWS AI Practitioner cert,
+               Bedrock Workshop, Bedrock Samples GitHub
 
 --------------------------------------------------------------------------------
 9. סביבה ומפתחות API
