@@ -390,7 +390,7 @@ def build_html():
   <div class="topbar">
     <div>
       <div class="topbar-title">מרכז הדרכה לכלי AI ארגוניים</div>
-      <div class="topbar-sub">5 כלים · 25 קורסים מאומתים · כולם חינמיים</div>
+      <div class="topbar-sub">5 כלים · 32 קורסים מאומתים · כמעט כולם חינמיים</div>
     </div>
     <span class="topbar-badge">✓ חינמי לחלוטין</span>
   </div>

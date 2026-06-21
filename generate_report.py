@@ -81,6 +81,30 @@ TOOLS = [
                 "rating": "חינמי לחלוטין | ישירות מצוות Google AI | ללא הרשמה",
             },
             {
+                "name": "Introduction to Generative AI",
+                "url": "skills.google/course_templates/536",
+                "desc": (
+                    "קורס מיקרו-לרנינג חינמי של Google. מסביר מהי Generative AI, "
+                    "איך היא עובדת ובמה שונה מ-ML מסורתי. מסתיים ב-Badge דיגיטלי "
+                    "רשמי. 45 דקות בלבד — מושלם כנקודת פתיחה לכל חבר צוות."
+                ),
+                "level": "מתחיל",
+                "dur": "45 דקות",
+                "rating": "חינמי | Badge דיגיטלי רשמי | Google Skills | ללא הרשמה",
+            },
+            {
+                "name": "Google Cloud ML & AI Training Hub",
+                "url": "cloud.google.com/learn/training/machinelearning-ai",
+                "desc": (
+                    "דף ההדרכה המרכזי של Google Cloud ל-Machine Learning ו-GenAI. "
+                    "מסלולים ממתחיל ועד מתקדם: Gemini Workspace, Vertex AI, "
+                    "TensorFlow, MLOps ובניית Agents. כולל 35 קרדיטים חינמיים חודשיים."
+                ),
+                "level": "כל הרמות",
+                "dur": "משתנה",
+                "rating": "הדרכה רשמית Google Cloud | 35 קרדיטים חינמיים לחודש | מסלולים לפי תפקיד",
+            },
+            {
                 "name": "Master Gemini 3.1 for Work in 12 Minutes",
                 "url": "youtube.com/watch?v=bTLmt9BKGVc",
                 "desc": (
@@ -137,7 +161,7 @@ TOOLS = [
             },
             {
                 "name": "ChatGPT Prompt Engineering for Developers",
-                "url": "deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers",
+                "url": "deeplearning.ai/courses/chatgpt-prompt-eng",
                 "desc": (
                     "קורס קלאסי של DeepLearning.AI עם OpenAI. מכסה system prompts, "
                     "few-shot learning, chain-of-thought ו-structured output. "
@@ -241,6 +265,30 @@ TOOLS = [
                 "rating": "חינמי עם תעודה | מותאם לצוותים עסקיים ולא-טכניים",
             },
             {
+                "name": "Claude Code in Action",
+                "url": "anthropic.skilljar.com/claude-code-in-action",
+                "desc": (
+                    "קורס מתקדם של Anthropic Academy על שילוב Claude Code ב-workflow "
+                    "הפיתוח. מכסה ארכיטקטורת coding assistant, tool use, ניהול "
+                    "הקשר ואינטגרציה עם GitHub. 24 לקציות ב-4 פרקים, מעשי לחלוטין."
+                ),
+                "level": "מפתחים",
+                "dur": "3 עד 4 שעות",
+                "rating": "חינמי עם תעודה | 24 לקציות | Anthropic Academy | 2026",
+            },
+            {
+                "name": "Claude with Google Cloud Vertex AI",
+                "url": "anthropic.skilljar.com/claude-with-google-vertex",
+                "desc": (
+                    "ההכשרה הטכנית המקיפה ביותר לשילוב Claude ב-Vertex AI של Google. "
+                    "מכסה API requests, tool use, RAG ו-Model Context Protocol. "
+                    "מעל 70 לקציות ב-11 פרקים. מותאם לצוותים עם Google Cloud."
+                ),
+                "level": "מפתחים",
+                "dur": "8 עד 10 שעות",
+                "rating": "חינמי עם תעודה | 70+ לקציות | Anthropic Academy | Google Cloud",
+            },
+            {
                 "name": "Mastering Claude Code in 30 Minutes",
                 "url": "youtube.com/watch?v=6eBSHbLKuN0",
                 "desc": (
@@ -255,10 +303,11 @@ TOOLS = [
         ],
         "rec": (
             "המלצה לצוות",
-            "Anthropic Academy (anthropic.skilljar.com) היא נקודת ההתחלה הברורה: "
-            "חינמית לחלוטין, 20 קורסים עם תעודות, עודכנה 2026. "
-            "לצוות טכני: Claude Platform 101 (8 שעות, 84 לקציות). "
-            "לצוות עסקי: AI Fluency. לצוות DevOps ב-AWS: Claude with Amazon Bedrock."
+            "Anthropic Academy (anthropic.skilljar.com) היא נקודת ההתחלה: "
+            "חינמית, 20+ קורסים עם תעודות, עודכנה 2026. "
+            "לצוות טכני: Claude Platform 101 (8 שעות). "
+            "לצוות עסקי: AI Fluency. לצוותי AWS: Claude with Amazon Bedrock. "
+            "לצוותי Google Cloud: Claude with Vertex AI (70+ לקציות)."
         ),
     },
 
@@ -322,6 +371,31 @@ TOOLS = [
                 "rating": "254K צפיות | Microsoft Mechanics | הנצפה ביותר על Azure AI Foundry",
             },
             {
+                "name": "Career Essentials in Generative AI — Microsoft & LinkedIn",
+                "url": "linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin",
+                "desc": (
+                    "מסלול של Microsoft ו-LinkedIn Learning: 5 קורסים על יסודות "
+                    "GenAI, Microsoft Copilot, AI לעסקים ואתיקה ב-AI. מיועד "
+                    "לכל בעל תפקיד ארגוני. דורש LinkedIn Learning — זמין לרוב "
+                    "בחינם דרך המעסיק."
+                ),
+                "level": "מתחיל",
+                "dur": "4 שעות",
+                "rating": "Microsoft + LinkedIn | 5 קורסים | ייתכן זמין חינם דרך המעסיק",
+            },
+            {
+                "name": "Microsoft AI for Beginners",
+                "url": "microsoft.github.io/AI-For-Beginners/",
+                "desc": (
+                    "קוריקולום פתוח וחינמי של Microsoft ב-GitHub. 12 שבועות, "
+                    "24 לקציות: Symbolic AI, Neural Networks, NLP, Computer Vision "
+                    "ו-GenAI. Labs מעשיים ב-Python. מושלם ללמידה עצמאית מקצה לקצה."
+                ),
+                "level": "מתחיל",
+                "dur": "12 שבועות",
+                "rating": "חינמי לחלוטין | 24 לקציות | Microsoft | 39K+ כוכבים ב-GitHub",
+            },
+            {
                 "name": "Azure AI Fundamentals (AI-900)",
                 "url": "learn.microsoft.com/credentials/certifications/azure-ai-fundamentals",
                 "desc": (
@@ -336,11 +410,10 @@ TOOLS = [
         ],
         "rec": (
             "המלצה לצוות",
-            "לצוות כולו: Microsoft Learn "
-            "(learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps) "
-            "עודכן מאי 2026, חינמי, 6 מודולים עם labs בדפדפן. למפתחים: הוסיפו "
-            "Coursera AI Agent Fundamentals (3.8/5, 11K לומדים). הסמכת AI-900 "
-            "מומלצת כנקודת התחלה לפני Azure AI Engineer."
+            "לצוות כולו: Microsoft Learn (develop-generative-ai-apps) עודכן מאי 2026, "
+            "חינמי, 6 מודולים עם labs. לכניסה מהירה ללא רקע טכני: Microsoft AI for "
+            "Beginners ב-GitHub (24 לקציות, חינמי). הסמכת AI-900 מומלצת לפני "
+            "Azure AI Engineer. LinkedIn Learning זמין לרוב דרך המעסיק."
         ),
     },
 
@@ -404,6 +477,18 @@ TOOLS = [
                 "rating": "495K צפיות | AWS Developers | הנצפה ביותר על Amazon Bedrock",
             },
             {
+                "name": "Generative AI Learning Plan for Decision Makers",
+                "url": "skillbuilder.aws/search?searchText=generative-ai-learning-plan-for-decision-makers",
+                "desc": (
+                    "מסלול ייעודי ב-AWS Skill Builder לבעלי תפקידים עסקיים ומנהלים. "
+                    "מכסה מושגי GenAI לעסקים, תרחישי שימוש ב-Amazon Bedrock, "
+                    "ניהול סיכונים ו-Responsible AI. חינמי עם Badge דיגיטלי."
+                ),
+                "level": "מתחיל",
+                "dur": "4 עד 6 שעות",
+                "rating": "חינמי | Badge דיגיטלי | מיועד למנהלים לא-טכניים | AWS Skill Builder",
+            },
+            {
                 "name": "AWS Machine Learning Training",
                 "url": "aws.amazon.com/training/learn-about/machine-learning",
                 "desc": (
@@ -418,10 +503,10 @@ TOOLS = [
         ],
         "rec": (
             "המלצה לצוות",
-            "להתחיל עם קורס freeCodeCamp ב-YouTube: 6 שעות, חינם, מ-Amazon עצמה "
-            "(freeCodeCamp עם 9M+ מנויים). במקביל: AWS Skill Builder לתרגול "
-            "ב-Console. לצלילה מעמיקה: aws.amazon.com/bedrock/getting-started "
-            "עם workshops וטוטוריאלים רשמיים."
+            "למנהלים: להתחיל ב-Decision Makers Learning Plan (חינמי, Badge, ללא רקע טכני). "
+            "למפתחים: freeCodeCamp ב-YouTube (6 שעות, מ-Amazon עצמה). "
+            "לתרגול: AWS Skill Builder עם Labs ב-Console האמיתי. "
+            "לצלילה: aws.amazon.com/bedrock/getting-started עם workshops רשמיים."
         ),
     },
 ]
