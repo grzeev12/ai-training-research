@@ -13,10 +13,10 @@ from word_writer import (
 )
 
 INTRO = (
-    "דוח זה מרכז את ההדרכות, הקורסים וההסמכות המובילות לחמשת כלי ה-AI "
-    "הארגוניים הנפוצים ביותר. כל המשאבים ברשימה זו חינמיים לחלוטין, ללא "
-    "כרטיס אשראי ו ללא ניסיון מוגבל. הקורסים נבחרו על בסיס דירוג גבוה, "
-    "תוכן עדכני לשנת 2026 ורלוונטיות לצוותים טכניים בארגונים."
+    "דוח זה מרכז את 50 ההדרכות, הקורסים וההסמכות המובילות לחמשת כלי ה-AI "
+    "הארגוניים הנפוצים ביותר — 10 קורסים לכל כלי. רוב המשאבים חינמיים לצפייה "
+    "ולמידה; חלק דורשים מנוי לקבלת תעודה רשמית. הקורסים נבחרו על בסיס "
+    "דירוג גבוה, מספר לומדים, תוכן עדכני לשנת 2026 ורלוונטיות לצוותים ארגוניים."
 )
 
 TOOLS = [
@@ -103,6 +103,42 @@ TOOLS = [
                 "level": "כל הרמות",
                 "dur": "משתנה",
                 "rating": "הדרכה רשמית Google Cloud | 35 קרדיטים חינמיים לחודש | מסלולים לפי תפקיד",
+            },
+            {
+                "name": "Google AI Essentials",
+                "url": "coursera.org/learn/google-ai-essentials",
+                "desc": (
+                    "קורס מקיף של Google ב-Coursera. 5 מודולים על שימוש מעשי "
+                    "בכלי GenAI לפרודוקטיביות בעבודה: Gemini, prompt engineering "
+                    "ו-Responsible AI. מסתיים בתעודת Google. חינמי לצפייה."
+                ),
+                "level": "מתחיל",
+                "dur": "8 עד 10 שעות",
+                "rating": "4.8/5 | 1.8M+ לומדים | Google | תעודה רשמית | Coursera",
+            },
+            {
+                "name": "Google Machine Learning Crash Course",
+                "url": "developers.google.com/machine-learning/crash-course",
+                "desc": (
+                    "הקורס החינמי המפורסם ביותר של Google למפתחים. מכסה יסודות ML, "
+                    "neural networks, TensorFlow ו-LLMs. 25+ שיעורים עם תרגולים "
+                    "ב-Python. קורס הדגל של Google לפיתוח AI."
+                ),
+                "level": "מפתחים",
+                "dur": "15 שעות",
+                "rating": "חינמי לחלוטין | Google Developers | קורס הדגל של Google | 2024",
+            },
+            {
+                "name": "Gemini API — Google AI for Developers",
+                "url": "ai.google.dev/gemini-api/docs",
+                "desc": (
+                    "פורטל המפתחים הרשמי של Gemini API. Quickstarts, "
+                    "Gemini Cookbook עם מאות דוגמאות קוד, ומדריכים ל-multimodal, "
+                    "function calling ו-embeddings. חינמי לחלוטין."
+                ),
+                "level": "מפתחים",
+                "dur": "משתנה",
+                "rating": "חינמי | Google | Gemini API Cookbook + Quickstarts | עודכן 2026",
             },
             {
                 "name": "Master Gemini 3.1 for Work in 12 Minutes",
@@ -195,12 +231,72 @@ TOOLS = [
                 "dur": "20 דקות",
                 "rating": "483K צפיות | Kevin Stratvert | 2025",
             },
+            {
+                "name": "Generative AI for Everyone",
+                "url": "coursera.org/learn/generative-ai-for-everyone",
+                "desc": (
+                    "הקורס הנגיש ביותר של Andrew Ng ל-GenAI. מסביר איך עובדים LLMs, "
+                    "איך לבנות workflow ארגוני עם AI, ומה הסיכונים. ללא רקע טכני. "
+                    "חינמי לצפייה ב-Coursera."
+                ),
+                "level": "מתחיל",
+                "dur": "6 שעות",
+                "rating": "4.8/5 | 806K+ לומדים | Andrew Ng, DeepLearning.AI | הנגיש ביותר לכולם",
+            },
+            {
+                "name": "Prompt Engineering for ChatGPT",
+                "url": "coursera.org/learn/prompt-engineering",
+                "desc": (
+                    "קורס Vanderbilt University ב-Coursera. 6 מודולים: prompt patterns, "
+                    "chain-of-thought, few-shot ובניית אפליקציית prompt. "
+                    "ד\"ר Jules White. חינמי לצפייה."
+                ),
+                "level": "מתחיל עד בינוני",
+                "dur": "19 שעות",
+                "rating": "4.8/5 | 687K+ לומדים | Vanderbilt University | Coursera",
+            },
+            {
+                "name": "How Business Thinkers Can Build with the ChatGPT API",
+                "url": "deeplearning.ai/short-courses/how-business-thinkers-can-start-building-with-the-chatgpt-api/",
+                "desc": (
+                    "קורס DeepLearning.AI לאנשי עסקים ומנהלים. מדגים בנייה "
+                    "מהירה של POC עם ChatGPT API ללא ניסיון מפתח. "
+                    "Python בסיסי בלבד. חינמי."
+                ),
+                "level": "בינוני",
+                "dur": "שעה",
+                "rating": "חינמי | DeepLearning.AI | מיועד למנהלים ואנשי עסקים | 2024",
+            },
+            {
+                "name": "LangChain for LLM Application Development",
+                "url": "deeplearning.ai/short-courses/langchain-for-llm-application-development/",
+                "desc": (
+                    "קורס של Harrison Chase (מייסד LangChain) ו-Andrew Ng. "
+                    "בניית אפליקציות LLM עם chains, memory, agents ו-document Q&A. "
+                    "קוד Python מלא. חינמי."
+                ),
+                "level": "מפתחים",
+                "dur": "שעה וחצי",
+                "rating": "חינמי | Harrison Chase + Andrew Ng | LangChain | DeepLearning.AI",
+            },
+            {
+                "name": "OpenAI Developer Cookbook",
+                "url": "developers.openai.com/cookbook",
+                "desc": (
+                    "המאגר הרשמי של OpenAI למפתחים: מאות דוגמאות קוד Python "
+                    "ל-ChatGPT API, Assistants, function calling, embeddings "
+                    "ו-fine-tuning. מתעדכן שוטף. חינמי לחלוטין."
+                ),
+                "level": "מפתחים",
+                "dur": "לפי בחירה",
+                "rating": "חינמי | OpenAI | מאות דוגמאות קוד | עודכן 2026",
+            },
         ],
         "rec": (
             "המלצה לצוות",
             "להתחיל ב-OpenAI Academy (academy.openai.com): חינמי, עדכני, "
-            "מחולק לפי תפקיד. מפתחים יוסיפו את שני קורסי DeepLearning.AI "
-            "(4M+ לומדים, Andrew Ng + OpenAI). "
+            "מחולק לפי תפקיד. מנהלים יוסיפו את Generative AI for Everyone (Andrew Ng, 806K לומדים). "
+            "מפתחים יוסיפו את DeepLearning.AI + LangChain. "
             "למי שרוצה הסמכה רשמית: OpenAI AI Foundations Certification."
         ),
     },
@@ -300,12 +396,48 @@ TOOLS = [
                 "dur": "28 דקות",
                 "rating": "1.4M צפיות | Anthropic | הנצפה ביותר על Claude Code",
             },
+            {
+                "name": "Introduction to Agent Skills",
+                "url": "anthropic.skilljar.com/introduction-to-agent-skills",
+                "desc": (
+                    "קורס Anthropic Academy על בניית, הגדרת ושיתוף Skills ב-Claude Code. "
+                    "מכסה יצירת Skill ראשון, multi-file skills ושיתוף עם צוותים. "
+                    "6 לקציות, חינמי עם תעודה."
+                ),
+                "level": "מפתחים",
+                "dur": "שעה",
+                "rating": "חינמי עם תעודה | 6 לקציות | Anthropic Academy | 2026",
+            },
+            {
+                "name": "Prompt Engineering with Anthropic Claude v3",
+                "url": "deeplearning.ai/short-courses/prompt-engineering-with-anthropic-claude-v-3/",
+                "desc": (
+                    "קורס DeepLearning.AI ייעודי ל-Claude. מכסה prompt patterns "
+                    "ספציפיים ל-Claude: constitutional AI, multi-step reasoning "
+                    "ו-structured output. חינמי עם דוגמאות Python."
+                ),
+                "level": "בינוני",
+                "dur": "שעה וחצי",
+                "rating": "חינמי | DeepLearning.AI | ייעודי ל-Claude v3 | Anthropic",
+            },
+            {
+                "name": "Anthropic Courses — GitHub",
+                "url": "github.com/anthropics/courses",
+                "desc": (
+                    "מאגר notebooks חינמי ורשמי של Anthropic ב-GitHub. כולל "
+                    "קורסי Jupyter על prompt engineering, tool use, multi-agent "
+                    "patterns ו-RAG עם Claude API. Python."
+                ),
+                "level": "מפתחים",
+                "dur": "לפי בחירה",
+                "rating": "חינמי לחלוטין | Anthropic | Jupyter Notebooks | GitHub | 2026",
+            },
         ],
         "rec": (
             "המלצה לצוות",
             "Anthropic Academy (anthropic.skilljar.com) היא נקודת ההתחלה: "
             "חינמית, 20+ קורסים עם תעודות, עודכנה 2026. "
-            "לצוות טכני: Claude Platform 101 (8 שעות). "
+            "לצוות טכני: Claude Platform 101 (8 שעות) + Anthropic Courses ב-GitHub. "
             "לצוות עסקי: AI Fluency. לצוותי AWS: Claude with Amazon Bedrock. "
             "לצוותי Google Cloud: Claude with Vertex AI (70+ לקציות)."
         ),
@@ -407,13 +539,49 @@ TOOLS = [
                 "dur": "10 שעות הכנה",
                 "rating": "ההסמכה הנפוצה ביותר של Microsoft AI | עודכנה אפריל 2026",
             },
+            {
+                "name": "Get Started with Microsoft 365 Copilot",
+                "url": "learn.microsoft.com/en-us/training/paths/get-started-with-microsoft-365-copilot/",
+                "desc": (
+                    "נתיב למידה רשמי של Microsoft. 3 מודולים: מהו M365 Copilot, "
+                    "שימוש ב-Teams/Word/Excel/Outlook ואיך למקסם ביצועים. "
+                    "מיועד לכל בעל תפקיד. חינמי."
+                ),
+                "level": "מתחיל",
+                "dur": "3 שעות",
+                "rating": "חינמי | 3 מודולים | Microsoft Learn | מיועד לכלל הצוות | 2025",
+            },
+            {
+                "name": "Introduction to GitHub Copilot",
+                "url": "learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/",
+                "desc": (
+                    "מודול Microsoft Learn על GitHub Copilot: איך עובד, שילוב ב-VS Code, "
+                    "כתיבת קוד, הסברת קוד קיים ויצירת בדיקות אוטומטיות. "
+                    "חינמי עם badge."
+                ),
+                "level": "מפתחים",
+                "dur": "שעה",
+                "rating": "חינמי עם Badge | Microsoft Learn | GitHub Copilot | 2025",
+            },
+            {
+                "name": "Develop AI Solutions with Azure OpenAI",
+                "url": "learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/",
+                "desc": (
+                    "נתיב למידה רשמי למפתחים ב-Azure OpenAI Service. מכסה REST API, "
+                    "SDKs, prompt engineering מתקדם, Assistants API ו-RAG עם "
+                    "Azure AI Search. Labs בדפדפן חינמיים."
+                ),
+                "level": "מפתחים",
+                "dur": "6 שעות",
+                "rating": "חינמי | Microsoft Learn | Labs בדפדפן | Azure OpenAI Service | 2026",
+            },
         ],
         "rec": (
             "המלצה לצוות",
             "לצוות כולו: Microsoft Learn (develop-generative-ai-apps) עודכן מאי 2026, "
             "חינמי, 6 מודולים עם labs. לכניסה מהירה ללא רקע טכני: Microsoft AI for "
-            "Beginners ב-GitHub (24 לקציות, חינמי). הסמכת AI-900 מומלצת לפני "
-            "Azure AI Engineer. LinkedIn Learning זמין לרוב דרך המעסיק."
+            "Beginners ב-GitHub (24 לקציות). הסמכת AI-900 מומלצת לכולם. "
+            "מנהלים: M365 Copilot Get Started. מפתחים: Azure OpenAI + GitHub Copilot."
         ),
     },
 
@@ -500,25 +668,73 @@ TOOLS = [
                 "dur": "משתנה",
                 "rating": "הדרכה רשמית של AWS | מסלולים לפי תפקיד | חינמי",
             },
+            {
+                "name": "Serverless LLM Apps from Amazon Bedrock",
+                "url": "deeplearning.ai/short-courses/serverless-llm-apps-amazon-bedrock/",
+                "desc": (
+                    "קורס DeepLearning.AI עם AWS. מכסה prompting ב-Bedrock, "
+                    "תמלול אודיו עם LLMs ובניית אפליקציות serverless עם AWS Lambda. "
+                    "7 שיעורים, Python. חינמי."
+                ),
+                "level": "בינוני",
+                "dur": "2 שעות",
+                "rating": "חינמי | Mike Chambers, AWS | DeepLearning.AI | Bedrock + Lambda | 2024",
+            },
+            {
+                "name": "AWS Certified AI Practitioner (AIF-C01)",
+                "url": "aws.amazon.com/certification/certified-ai-practitioner/",
+                "desc": (
+                    "הסמכת AI הרשמית החדשה של AWS (2024). מכסה יסודות AI/ML, "
+                    "שירותי GenAI של AWS, Responsible AI ו-Amazon Bedrock. "
+                    "כל חומרי ההכנה חינמיים ב-AWS Skill Builder."
+                ),
+                "level": "בינוני",
+                "dur": "20 עד 30 שעות הכנה",
+                "rating": "הסמכת AWS ל-AI | חומרי הכנה חינמיים ב-Skill Builder | 2024",
+            },
+            {
+                "name": "Building with Amazon Bedrock — Workshop",
+                "url": "catalog.workshops.aws/building-with-amazon-bedrock/en-US",
+                "desc": (
+                    "Workshop מעשי רשמי של AWS: בניית אפליקציות GenAI עם Bedrock. "
+                    "מכסה Knowledge Bases ל-RAG, Bedrock Agents ו-Guardrails. "
+                    "Labs ב-AWS Console האמיתי. חינמי."
+                ),
+                "level": "מפתחים",
+                "dur": "4 עד 6 שעות",
+                "rating": "חינמי | AWS Official Workshop | Bedrock + RAG + Agents | 2025",
+            },
+            {
+                "name": "Amazon Bedrock Samples — GitHub",
+                "url": "github.com/aws-samples/amazon-bedrock-samples",
+                "desc": (
+                    "מאגר קוד רשמי של AWS ב-GitHub: מאות notebooks ודוגמאות Python "
+                    "ל-Bedrock API, Knowledge Bases, Agents, Guardrails ו-fine-tuning. "
+                    "מתעדכן שוטף. חינמי לחלוטין."
+                ),
+                "level": "מפתחים",
+                "dur": "לפי בחירה",
+                "rating": "חינמי | AWS Samples | מאות Notebooks | GitHub | עודכן 2026",
+            },
         ],
         "rec": (
             "המלצה לצוות",
             "למנהלים: להתחיל ב-Decision Makers Learning Plan (חינמי, Badge, ללא רקע טכני). "
-            "למפתחים: freeCodeCamp ב-YouTube (6 שעות, מ-Amazon עצמה). "
-            "לתרגול: AWS Skill Builder עם Labs ב-Console האמיתי. "
-            "לצלילה: aws.amazon.com/bedrock/getting-started עם workshops רשמיים."
+            "למפתחים: freeCodeCamp ב-YouTube (6 שעות) + DeepLearning.AI Serverless LLM Apps. "
+            "לתרגול: AWS Workshop רשמי עם Labs ב-Console. "
+            "לצלילה: Bedrock Samples ב-GitHub עם מאות דוגמאות קוד."
         ),
     },
 ]
 
 SUMMARY = (
-    "כל חמשת הכלים מציעים תכנים חינמיים ברמה גבוהה. אין צורך לשלם לפני "
-    "שמיצים את המשאבים הרשמיים. שלושה מסלולים שמחזירים את ההשקעה במהירות: "
-    "Google Cloud Skills Boost לכל מה שקשור ל-Gemini (מיליוני לומדים), "
-    "Anthropic Academy לכל מה שקשור ל-Claude עם 20 קורסים חינמיים, "
-    "ו-AWS Skill Builder ל-Bedrock עם מעל 600 קורסים. לצוות שמחפש הסמכה "
-    "מוכרת: Microsoft AI-900 ו-OpenAI AI Foundations הן שתי ההסמכות "
-    "הנפוצות ביותר בדרישות גיוס ב-2026."
+    "50 הקורסים ברשימה מכסים כל רמה: מתחיל, בינוני ומפתחים. "
+    "כל חמשת הכלים מציעים תכנים חינמיים ברמה גבוהה — אין צורך לשלם לפני "
+    "שמיצים את המשאבים הרשמיים. ציוני דרך מומלצים: "
+    "Coursera/Anthropic Academy למתחילים, DeepLearning.AI לרמה בינונית, "
+    "ו-GitHub Cookbooks + Workshops לרמת מפתחים. "
+    "הסמכות מוכרות ב-2026: Microsoft AI-900, OpenAI AI Foundations "
+    "ו-AWS Certified AI Practitioner (AIF-C01)."
 )
 
 
