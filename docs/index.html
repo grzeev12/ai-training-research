@@ -16,7 +16,7 @@
     direction: rtl;
   }
 
-  /* ── Sidebar ── */
+  /* Sidebar */
   .sidebar {
     width: 240px;
     min-width: 240px;
@@ -28,209 +28,149 @@
     overflow-y: auto;
     z-index: 100;
   }
-
   .sidebar-logo {
     padding: 28px 20px 20px;
     border-bottom: 1px solid #ffffff18;
   }
-
   .sidebar-logo h1 {
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.5;
+    font-size: 14px; font-weight: 600; color: #fff; line-height: 1.5;
   }
-
   .sidebar-logo p {
-    font-size: 11px;
-    color: #ffffff66;
-    margin-top: 4px;
+    font-size: 11px; color: #ffffff66; margin-top: 4px;
   }
-
   .nav-label {
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #ffffff44;
-    text-transform: uppercase;
-    padding: 20px 20px 8px;
+    font-size: 10px; font-weight: 600; letter-spacing: 1px;
+    color: #ffffff44; text-transform: uppercase; padding: 20px 20px 8px;
   }
-
   .nav-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 16px;
-    cursor: pointer;
-    border-radius: 8px;
-    margin: 2px 8px;
-    transition: background 0.15s;
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 16px; cursor: pointer; border-radius: 8px;
+    margin: 2px 8px; transition: background 0.15s;
   }
-
   .nav-item:hover { background: #ffffff12; }
-
   .nav-item.active {
     background: var(--accent, #1a73e8)22;
     border-right: 3px solid var(--accent, #1a73e8);
     padding-right: 13px;
   }
-
   .nav-icon {
-    width: 34px;
-    height: 34px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    flex-shrink: 0;
+    width: 34px; height: 34px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 700; color: #fff; flex-shrink: 0;
   }
-
   .nav-labels { display: flex; flex-direction: column; overflow: hidden; }
   .nav-short { font-size: 12px; font-weight: 600; color: #fff; }
   .nav-full  { font-size: 10px; color: #ffffff66; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
   .sidebar-footer {
-    margin-top: auto;
-    padding: 16px 20px;
-    border-top: 1px solid #ffffff18;
-    font-size: 10px;
-    color: #ffffff33;
+    margin-top: auto; padding: 16px 20px;
+    border-top: 1px solid #ffffff18; font-size: 10px; color: #ffffff33;
   }
 
-  /* ── Main ── */
-  .main {
-    margin-right: 240px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
+  /* Main */
+  .main { margin-right: 240px; flex: 1; display: flex; flex-direction: column; }
 
+  /* Topbar */
   .topbar {
-    background: #fff;
-    border-bottom: 1px solid #e0e0e0;
-    padding: 16px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    background: #fff; border-bottom: 1px solid #e0e0e0;
+    padding: 14px 32px; display: flex; align-items: center;
+    justify-content: space-between; position: sticky; top: 0; z-index: 50;
   }
-
   .topbar-title { font-size: 17px; font-weight: 600; color: #1a1a1a; }
   .topbar-sub   { font-size: 12px; color: #888; margin-top: 2px; }
-
   .topbar-badge {
-    background: #e8f5e9;
-    color: #2e7d32;
-    font-size: 11px;
-    font-weight: 600;
-    padding: 4px 12px;
-    border-radius: 20px;
-    border: 1px solid #a5d6a7;
+    background: #e8f5e9; color: #2e7d32; font-size: 11px; font-weight: 600;
+    padding: 4px 12px; border-radius: 20px; border: 1px solid #a5d6a7;
   }
 
-  .content { padding: 32px; max-width: 900px; }
+  /* Level filter bar */
+  .level-bar {
+    background: #fff; border-bottom: 1px solid #ebebeb;
+    padding: 8px 32px; display: flex; align-items: center; gap: 8px;
+    position: sticky; top: 61px; z-index: 49;
+  }
+  .level-bar-label {
+    font-size: 11px; font-weight: 700; color: #999; margin-left: 4px;
+    letter-spacing: 0.3px;
+  }
+  .level-btn {
+    font-size: 12px; font-weight: 600; padding: 4px 14px; border-radius: 20px;
+    border: 1.5px solid #ddd; background: #f7f7f7; color: #555;
+    cursor: pointer; transition: all 0.15s; display: flex; align-items: center; gap: 6px;
+  }
+  .level-btn:hover { background: #eee; border-color: #ccc; }
+  .level-btn.active {
+    background: var(--lvl-color, #333); color: #fff;
+    border-color: var(--lvl-color, #333);
+  }
+  .lvl-dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--dot-color, #888); flex-shrink: 0;
+  }
+  .level-btn.active .lvl-dot { background: rgba(255,255,255,0.7); }
 
-  /* ── Tool header ── */
+  /* Content */
+  .content { padding: 28px 32px; max-width: 920px; }
+
+  /* Tool header */
   .tool-header {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    border-radius: 12px 12px 0 0;
-    padding: 20px 28px;
-    color: #fff;
+    display: flex; align-items: center; gap: 16px;
+    border-radius: 12px 12px 0 0; padding: 20px 28px; color: #fff;
   }
-
   .tool-num {
-    font-size: 13px;
-    font-weight: 700;
-    background: #ffffff33;
-    padding: 3px 10px;
-    border-radius: 20px;
+    font-size: 13px; font-weight: 700; background: #ffffff33;
+    padding: 3px 10px; border-radius: 20px;
   }
-
   .tool-name { font-size: 22px; font-weight: 700; }
-
   .tool-desc {
-    font-size: 14px;
-    color: #444;
-    line-height: 1.7;
-    padding: 20px 28px;
-    background: #fff;
-    border: 1px solid #e8e8e8;
-    border-top: none;
-    border-radius: 0 0 12px 12px;
-    margin-bottom: 20px;
+    font-size: 14px; color: #444; line-height: 1.7;
+    padding: 20px 28px; background: #fff;
+    border: 1px solid #e8e8e8; border-top: none;
+    border-radius: 0 0 12px 12px; margin-bottom: 16px;
   }
 
-  /* ── Cards ── */
-  .cards-grid { display: flex; flex-direction: column; gap: 14px; margin-bottom: 20px; }
+  /* Level sections */
+  .level-section { margin-bottom: 14px; }
+  .level-header {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.4px;
+    padding: 7px 14px; border-radius: 6px; margin-bottom: 10px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .level-count { font-size: 10px; font-weight: 600; opacity: 0.6; }
 
+  /* Cards */
+  .cards-grid { display: flex; flex-direction: column; gap: 10px; }
   .card {
-    background: #fff;
-    border-radius: 10px;
-    padding: 18px 20px;
-    border: 1px solid #e8e8e8;
-    transition: box-shadow 0.15s;
+    background: #fff; border-radius: 10px; padding: 18px 20px;
+    border: 1px solid #e8e8e8; transition: box-shadow 0.15s;
   }
-
   .card:hover { box-shadow: 0 4px 16px #0001; }
-
   .card-header { margin-bottom: 8px; }
   .card-title  { font-size: 15px; font-weight: 600; color: #1a1a1a; margin-bottom: 4px; }
   .card-url    { font-size: 12px; color: #1a73e8; text-decoration: none; }
   .card-url:hover { text-decoration: underline; }
   .card-desc   { font-size: 13px; color: #555; line-height: 1.65; margin-bottom: 12px; }
-
   .card-meta   { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-
   .badge {
-    font-size: 11px;
-    font-weight: 600;
-    padding: 3px 10px;
-    border-radius: 20px;
-    white-space: nowrap;
+    font-size: 11px; font-weight: 600; padding: 3px 10px;
+    border-radius: 20px; white-space: nowrap;
   }
-
   .dur-badge { background: #f3f4f6; color: #555; border: 1px solid #ddd; }
-
   .yt-badge {
-    font-size: 10px;
-    font-weight: 700;
-    background: #ff000015;
-    color: #cc0000;
-    border: 1px solid #ff000030;
-    padding: 2px 8px;
-    border-radius: 20px;
-    margin-right: 8px;
+    font-size: 10px; font-weight: 700; background: #ff000015; color: #cc0000;
+    border: 1px solid #ff000030; padding: 2px 8px; border-radius: 20px; margin-right: 8px;
   }
-
   .rating-text { font-size: 11px; color: #888; }
 
-  /* ── Callout ── */
-  .callout {
-    border-radius: 10px;
-    padding: 18px 20px;
-    margin-bottom: 40px;
-  }
-
+  /* Callout */
+  .callout { border-radius: 10px; padding: 18px 20px; margin-bottom: 40px; }
   .callout-title { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
   .callout-body  { font-size: 13px; color: #444; line-height: 1.7; }
 
-  /* ── Intro panel ── */
+  /* Intro */
   .intro-panel {
-    background: #fff;
-    border-radius: 12px;
-    border: 1px solid #e8e8e8;
-    padding: 24px 28px;
-    margin-bottom: 28px;
-    font-size: 14px;
-    color: #444;
-    line-height: 1.8;
+    background: #fff; border-radius: 12px; border: 1px solid #e8e8e8;
+    padding: 24px 28px; margin-bottom: 24px;
+    font-size: 14px; color: #444; line-height: 1.8;
   }
 </style>
 </head>
@@ -283,16 +223,40 @@
             <span class="nav-full">Amazon Bedrock (AWS)</span>
           </div>
         </div>
-  <div class="sidebar-footer">AI Training Research v5</div>
+  <div class="sidebar-footer">AI Training Research v6</div>
 </nav>
 
 <div class="main">
   <div class="topbar">
     <div>
       <div class="topbar-title">מרכז הדרכה לכלי AI ארגוניים</div>
-      <div class="topbar-sub">5 כלים · 32 קורסים מאומתים · כמעט כולם חינמיים</div>
+      <div class="topbar-sub">5 כלים &middot; 32 קורסים מאומתים &middot; כמעט כולם חינמיים</div>
     </div>
-    <span class="topbar-badge">✓ חינמי לחלוטין</span>
+    <span class="topbar-badge">&#10003; כמעט הכל חינמי</span>
+  </div>
+
+  <div class="level-bar">
+    <span class="level-bar-label">סנן לפי רמה:</span>
+    <button class="level-btn active" data-filter="all"
+            style="--lvl-color:#546e7a;--dot-color:#546e7a"
+            onclick="filterLevel('all')">
+      <span class="lvl-dot"></span> הכל
+    </button>
+    <button class="level-btn" data-filter="beginner"
+            style="--lvl-color:#2e7d32;--dot-color:#2e7d32"
+            onclick="filterLevel('beginner')">
+      <span class="lvl-dot"></span> מתחיל
+    </button>
+    <button class="level-btn" data-filter="intermediate"
+            style="--lvl-color:#1565c0;--dot-color:#1565c0"
+            onclick="filterLevel('intermediate')">
+      <span class="lvl-dot"></span> בינוני
+    </button>
+    <button class="level-btn" data-filter="advanced"
+            style="--lvl-color:#6a1b9a;--dot-color:#6a1b9a"
+            onclick="filterLevel('advanced')">
+      <span class="lvl-dot"></span> מפתחים
+    </button>
   </div>
 
   <div class="content">
@@ -304,9 +268,15 @@
       <h2 class="tool-name">Gemini Enterprise (Google)</h2>
     </div>
     <p class="tool-desc">Gemini Enterprise הוא פתרון ה-AI הארגוני של Google. הוא משלב את מודל Gemini בתוך Google Workspace כולל Gmail, Docs, Meet ו-Sheets, ומחבר לתשתיות Vertex AI ו-Google Cloud. מתאים לארגונים שרוצים Enterprise Search חכם, AI Agents ואוטומציה של תהליכי עבודה.</p>
-    <div class="cards-grid">
+    
+    <div class="level-section" data-group="beginner">
+      <div class="level-header" style="color:#2e7d32;border-right:3px solid #2e7d32;background:#e8f5e9">
+        <span>מתחיל</span>
+        <span class="level-count">6 קורסים</span>
+      </div>
+      <div class="cards-grid">
 
-    <div class="card" style="border-right:4px solid #1a73e8">
+    <div class="card" data-level="beginner" style="border-right:4px solid #1a73e8">
       <div class="card-header">
         <div class="card-title">Google Workspace Training </div>
         <a class="card-url" href="https://workspace.google.com/training" target="_blank" rel="noopener">workspace.google.com/training</a>
@@ -314,12 +284,12 @@
       <p class="card-desc">מרכז ההדרכה הרשמי של Google Workspace. כולל מדריכים, טיפים מהירים וקורסים לשימוש ב-Gemini ב-Gmail, Docs, Meet ו-Sheets. חינמי לחלוטין, ללא הרשמה.</p>
       <div class="card-meta">
         <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ לפי בחירה</span>
+        <span class="badge dur-badge">&#9201; לפי בחירה</span>
         <span class="rating-text">הדרכה רשמית של Google | מאות אלפי משתמשים | חינמי ללא הרשמה</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #1a73e8">
+    <div class="card" data-level="beginner" style="border-right:4px solid #1a73e8">
       <div class="card-header">
         <div class="card-title">Introduction to Gemini Enterprise </div>
         <a class="card-url" href="https://cloudskillsboost.google" target="_blank" rel="noopener">cloudskillsboost.google</a>
@@ -327,12 +297,12 @@
       <p class="card-desc">הפלטפורמה הרשמית של Google Cloud עם מאות קורסים חינמיים. הנצפה ביותר: Introduction to Generative AI, Introduction to LLMs ו-Responsible AI. Labs מעשיים ב-Vertex AI.</p>
       <div class="card-meta">
         <span class="badge" style="background:#388e3c22;color:#388e3c;border:1px solid #388e3c44">מתחיל עד בינוני</span>
-        <span class="badge dur-badge">⏱ 1 עד 3 שעות לקורס</span>
+        <span class="badge dur-badge">&#9201; 1 עד 3 שעות לקורס</span>
         <span class="rating-text">מיליוני לומדים | Introduction to GenAI: אחד הנצפים ביותר ב-Google</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #1a73e8">
+    <div class="card" data-level="beginner" style="border-right:4px solid #1a73e8">
       <div class="card-header">
         <div class="card-title">Prompt Design in Vertex AI </div>
         <a class="card-url" href="https://cloudskillsboost.google/paths/183" target="_blank" rel="noopener">cloudskillsboost.google/paths/183</a>
@@ -340,12 +310,12 @@
       <p class="card-desc">נתיב למידה רשמי של Google Cloud. מכסה prompt engineering עם Gemini API, multimodal inputs ו-Vertex AI Studio. כולל labs מעשיים חינמיים בדפדפן.</p>
       <div class="card-meta">
         <span class="badge" style="background:#43a04722;color:#43a047;border:1px solid #43a04744">מתחיל עד מפתחים</span>
-        <span class="badge dur-badge">⏱ 5 שעות</span>
+        <span class="badge dur-badge">&#9201; 5 שעות</span>
         <span class="rating-text">קורס Google Cloud Skills Boost | חינמי עם completion badge</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #1a73e8">
+    <div class="card" data-level="beginner" style="border-right:4px solid #1a73e8">
       <div class="card-header">
         <div class="card-title">Google AI Education Hub </div>
         <a class="card-url" href="https://ai.google/education" target="_blank" rel="noopener">ai.google/education</a>
@@ -353,12 +323,12 @@
       <p class="card-desc">דף הקורסים החינמיים הרשמי של Google AI. כולל: Introduction to Generative AI, Introduction to Large Language Models ו-AI Power-Ups for Google Workspace. כולם חינמיים לחלוטין.</p>
       <div class="card-meta">
         <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ 1 עד 3 שעות לקורס</span>
+        <span class="badge dur-badge">&#9201; 1 עד 3 שעות לקורס</span>
         <span class="rating-text">חינמי לחלוטין | ישירות מצוות Google AI | ללא הרשמה</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #1a73e8">
+    <div class="card" data-level="beginner" style="border-right:4px solid #1a73e8">
       <div class="card-header">
         <div class="card-title">Introduction to Generative AI </div>
         <a class="card-url" href="https://skills.google/course_templates/536" target="_blank" rel="noopener">skills.google/course_templates/536</a>
@@ -366,12 +336,33 @@
       <p class="card-desc">קורס מיקרו-לרנינג חינמי של Google. מסביר מהי Generative AI, איך היא עובדת ובמה שונה מ-ML מסורתי. מסתיים ב-Badge דיגיטלי רשמי. 45 דקות בלבד — מושלם כנקודת פתיחה לכל חבר צוות.</p>
       <div class="card-meta">
         <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ 45 דקות</span>
+        <span class="badge dur-badge">&#9201; 45 דקות</span>
         <span class="rating-text">חינמי | Badge דיגיטלי רשמי | Google Skills | ללא הרשמה</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #1a73e8">
+    <div class="card" data-level="beginner" style="border-right:4px solid #ff0000">
+      <div class="card-header">
+        <div class="card-title">Master Gemini 3.1 for Work in 12 Minutes <span class="yt-badge">&#9654; YouTube</span></div>
+        <a class="card-url" href="https://youtube.com/watch?v=bTLmt9BKGVc" target="_blank" rel="noopener">youtube.com/watch?v=bTLmt9BKGVc</a>
+      </div>
+      <p class="card-desc">סרטון ריכוז של Jeff Su: כל הפיצ&#x27;רים החשובים של Gemini לעבודה יומיומית ב-12 דקות. Gemini ב-Gmail, Docs, Sheets ו-Google Meet. ישיר ומעשי, מתאים לכל חברי הצוות.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
+        <span class="badge dur-badge">&#9201; 13 דקות</span>
+        <span class="rating-text">365K צפיות | Jeff Su | 2026</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="level-section" data-group="all">
+      <div class="level-header" style="color:#546e7a;border-right:3px solid #546e7a;background:#eceff1">
+        <span>כל הרמות</span>
+        <span class="level-count">1 קורס</span>
+      </div>
+      <div class="cards-grid">
+
+    <div class="card" data-level="all" style="border-right:4px solid #1a73e8">
       <div class="card-header">
         <div class="card-title">Google Cloud ML &amp; AI Training Hub </div>
         <a class="card-url" href="https://cloud.google.com/learn/training/machinelearning-ai" target="_blank" rel="noopener">cloud.google.com/learn/training/machinelearning-ai</a>
@@ -379,26 +370,14 @@
       <p class="card-desc">דף ההדרכה המרכזי של Google Cloud ל-Machine Learning ו-GenAI. מסלולים ממתחיל ועד מתקדם: Gemini Workspace, Vertex AI, TensorFlow, MLOps ובניית Agents. כולל 35 קרדיטים חינמיים חודשיים.</p>
       <div class="card-meta">
         <span class="badge" style="background:#546e7a22;color:#546e7a;border:1px solid #546e7a44">כל הרמות</span>
-        <span class="badge dur-badge">⏱ משתנה</span>
+        <span class="badge dur-badge">&#9201; משתנה</span>
         <span class="rating-text">הדרכה רשמית Google Cloud | 35 קרדיטים חינמיים לחודש | מסלולים לפי תפקיד</span>
       </div>
     </div>
-
-    <div class="card" style="border-right:4px solid #ff0000">
-      <div class="card-header">
-        <div class="card-title">Master Gemini 3.1 for Work in 12 Minutes <span class="yt-badge">▶ YouTube</span></div>
-        <a class="card-url" href="https://youtube.com/watch?v=bTLmt9BKGVc" target="_blank" rel="noopener">youtube.com/watch?v=bTLmt9BKGVc</a>
-      </div>
-      <p class="card-desc">סרטון ריכוז של Jeff Su: כל הפיצ&#x27;רים החשובים של Gemini לעבודה יומיומית ב-12 דקות. Gemini ב-Gmail, Docs, Sheets ו-Google Meet. ישיר ומעשי, מתאים לכל חברי הצוות.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ 13 דקות</span>
-        <span class="rating-text">365K צפיות | Jeff Su | 2026</span>
       </div>
     </div>
-    </div>
-    <div class="callout" style="background:#e8f0fe;border-right:4px solid #1a73e8">
-      <div class="callout-title" style="color:#1a73e8">💡 המלצה לצוות</div>
+    <div class="callout" style="background:#e8f0fe;border-right:4px solid #1a73e8;margin-top:8px">
+      <div class="callout-title" style="color:#1a73e8">&#128161; המלצה לצוות</div>
       <p class="callout-body">לצוות המשתמש ב-Google Workspace: להתחיל ב-workspace.google.com/training (חינמי, ללא הרשמה, כולל Gemini). למפתחים: cloudskillsboost.google ואחריו נתיב Prompt Design in Vertex AI. לצפייה בחידושים: YouTube Google Cloud.</p>
     </div>
   </section>
@@ -408,9 +387,15 @@
       <h2 class="tool-name">ChatGPT Enterprise (OpenAI)</h2>
     </div>
     <p class="tool-desc">ChatGPT Enterprise הוא המוצר הארגוני של OpenAI. הוא מציע אבטחת SOC 2, חלון הקשר מורחב, ניתוח נתונים ללא הגבלה ובניית GPTs פנימיים. מתאים לצוותים שרוצים שליטה ארגונית מלאה על הנתונים לצד יכולות AI מתקדמות.</p>
-    <div class="cards-grid">
+    
+    <div class="level-section" data-group="beginner">
+      <div class="level-header" style="color:#2e7d32;border-right:3px solid #2e7d32;background:#e8f5e9">
+        <span>מתחיל</span>
+        <span class="level-count">2 קורסים</span>
+      </div>
+      <div class="cards-grid">
 
-    <div class="card" style="border-right:4px solid #10a37f">
+    <div class="card" data-level="beginner" style="border-right:4px solid #10a37f">
       <div class="card-header">
         <div class="card-title">OpenAI Academy </div>
         <a class="card-url" href="https://academy.openai.com" target="_blank" rel="noopener">academy.openai.com</a>
@@ -418,12 +403,33 @@
       <p class="card-desc">הפלטפורמה הרשמית והחינמית של OpenAI. שלושה קורסים: AI Foundations למתחילים, Applied AI Foundations לבינוניים, ו-Agents and Workflows למתקדמים. מחולק לפי תפקיד: בעלי עסקים, מפתחים ומגזר ציבורי.</p>
       <div class="card-meta">
         <span class="badge" style="background:#388e3c22;color:#388e3c;border:1px solid #388e3c44">מתחיל עד בינוני</span>
-        <span class="badge dur-badge">⏱ 2 עד 4 שעות</span>
+        <span class="badge dur-badge">&#9201; 2 עד 4 שעות</span>
         <span class="rating-text">פלטפורמה רשמית של OpenAI | חינמית לחלוטין | הושקה 2025</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #10a37f">
+    <div class="card" data-level="beginner" style="border-right:4px solid #ff0000">
+      <div class="card-header">
+        <div class="card-title">How to Create Custom GPT <span class="yt-badge">&#9654; YouTube</span></div>
+        <a class="card-url" href="https://youtube.com/watch?v=0Q1AQAxpdGg" target="_blank" rel="noopener">youtube.com/watch?v=0Q1AQAxpdGg</a>
+      </div>
+      <p class="card-desc">הדרכה של Kevin Stratvert על בניית Custom GPTs פנימיים ב-ChatGPT Enterprise. מדריך שלב-אחר-שלב: הגדרת instructions, knowledge base, ו-actions. 20 דקות, מעשי.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#388e3c22;color:#388e3c;border:1px solid #388e3c44">מתחיל עד בינוני</span>
+        <span class="badge dur-badge">&#9201; 20 דקות</span>
+        <span class="rating-text">483K צפיות | Kevin Stratvert | 2025</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="level-section" data-group="intermediate">
+      <div class="level-header" style="color:#1565c0;border-right:3px solid #1565c0;background:#e3f2fd">
+        <span>בינוני</span>
+        <span class="level-count">1 קורס</span>
+      </div>
+      <div class="cards-grid">
+
+    <div class="card" data-level="intermediate" style="border-right:4px solid #10a37f">
       <div class="card-header">
         <div class="card-title">OpenAI AI Foundations Certification </div>
         <a class="card-url" href="https://openai.com/index/introducing-openai-certification" target="_blank" rel="noopener">openai.com/index/introducing-openai-certification</a>
@@ -431,12 +437,20 @@
       <p class="card-desc">הסמכה רשמית ראשונה של OpenAI שהושקה דצמבר 2025. מבוססת על תרחישים בתוך ChatGPT. מגובה על ידי ETS ו-Credly. מסלול ארגוני בפיילוט עם ערך אמיתי ל-CV.</p>
       <div class="card-meta">
         <span class="badge" style="background:#1565c022;color:#1565c0;border:1px solid #1565c044">בינוני</span>
-        <span class="badge dur-badge">⏱ 4 עד 6 שעות</span>
+        <span class="badge dur-badge">&#9201; 4 עד 6 שעות</span>
         <span class="rating-text">ההסמכה הרשמית היחידה של OpenAI | מגובה ETS ו-Credly</span>
       </div>
     </div>
+      </div>
+    </div>
+    <div class="level-section" data-group="advanced">
+      <div class="level-header" style="color:#6a1b9a;border-right:3px solid #6a1b9a;background:#f3e5f5">
+        <span>מפתחים</span>
+        <span class="level-count">2 קורסים</span>
+      </div>
+      <div class="cards-grid">
 
-    <div class="card" style="border-right:4px solid #10a37f">
+    <div class="card" data-level="advanced" style="border-right:4px solid #10a37f">
       <div class="card-header">
         <div class="card-title">ChatGPT Prompt Engineering for Developers </div>
         <a class="card-url" href="https://deeplearning.ai/courses/chatgpt-prompt-eng" target="_blank" rel="noopener">deeplearning.ai/courses/chatgpt-prompt-eng</a>
@@ -444,12 +458,12 @@
       <p class="card-desc">קורס קלאסי של DeepLearning.AI עם OpenAI. מכסה system prompts, few-shot learning, chain-of-thought ו-structured output. מוצג על ידי Andrew Ng ו-Isa Fulford מ-OpenAI.</p>
       <div class="card-meta">
         <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
-        <span class="badge dur-badge">⏱ שעה וחצי</span>
+        <span class="badge dur-badge">&#9201; שעה וחצי</span>
         <span class="rating-text">4M+ לומדים | Andrew Ng + Isa Fulford (OpenAI) | הנצפה ביותר בתחום</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #10a37f">
+    <div class="card" data-level="advanced" style="border-right:4px solid #10a37f">
       <div class="card-header">
         <div class="card-title">Building Systems with the ChatGPT API </div>
         <a class="card-url" href="https://deeplearning.ai/short-courses/building-systems-with-chatgpt" target="_blank" rel="noopener">deeplearning.ai/short-courses/building-systems-with-chatgpt</a>
@@ -457,26 +471,14 @@
       <p class="card-desc">המשך ישיר לקורס prompt engineering של DeepLearning.AI. בניית pipeline מלא מ-classification ועד evaluation עם Python. חינמי לחלוטין.</p>
       <div class="card-meta">
         <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
-        <span class="badge dur-badge">⏱ שעה</span>
+        <span class="badge dur-badge">&#9201; שעה</span>
         <span class="rating-text">1M+ לומדים | קורס ההמשך המומלץ ביותר אחרי Prompt Engineering</span>
       </div>
     </div>
-
-    <div class="card" style="border-right:4px solid #ff0000">
-      <div class="card-header">
-        <div class="card-title">How to Create Custom GPT <span class="yt-badge">▶ YouTube</span></div>
-        <a class="card-url" href="https://youtube.com/watch?v=0Q1AQAxpdGg" target="_blank" rel="noopener">youtube.com/watch?v=0Q1AQAxpdGg</a>
-      </div>
-      <p class="card-desc">הדרכה של Kevin Stratvert על בניית Custom GPTs פנימיים ב-ChatGPT Enterprise. מדריך שלב-אחר-שלב: הגדרת instructions, knowledge base, ו-actions. 20 דקות, מעשי.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#388e3c22;color:#388e3c;border:1px solid #388e3c44">מתחיל עד בינוני</span>
-        <span class="badge dur-badge">⏱ 20 דקות</span>
-        <span class="rating-text">483K צפיות | Kevin Stratvert | 2025</span>
       </div>
     </div>
-    </div>
-    <div class="callout" style="background:#e6f7f3;border-right:4px solid #10a37f">
-      <div class="callout-title" style="color:#10a37f">💡 המלצה לצוות</div>
+    <div class="callout" style="background:#e6f7f3;border-right:4px solid #10a37f;margin-top:8px">
+      <div class="callout-title" style="color:#10a37f">&#128161; המלצה לצוות</div>
       <p class="callout-body">להתחיל ב-OpenAI Academy (academy.openai.com): חינמי, עדכני, מחולק לפי תפקיד. מפתחים יוסיפו את שני קורסי DeepLearning.AI (4M+ לומדים, Andrew Ng + OpenAI). למי שרוצה הסמכה רשמית: OpenAI AI Foundations Certification.</p>
     </div>
   </section>
@@ -486,48 +488,15 @@
       <h2 class="tool-name">Claude Enterprise (Anthropic)</h2>
     </div>
     <p class="tool-desc">Claude Enterprise הוא פתרון ה-AI הארגוני של Anthropic. הוא מציע חלון הקשר של 200,000 טוקן, Projects לניהול ידע ארגוני ואינטגרציה עם Amazon Bedrock ו-Google Vertex AI. Anthropic Academy נפתחה מרץ 2026 ומכילה 20 קורסים, כולם חינמיים עם תעודת גמר.</p>
-    <div class="cards-grid">
+    
+    <div class="level-section" data-group="beginner">
+      <div class="level-header" style="color:#2e7d32;border-right:3px solid #2e7d32;background:#e8f5e9">
+        <span>מתחיל</span>
+        <span class="level-count">1 קורס</span>
+      </div>
+      <div class="cards-grid">
 
-    <div class="card" style="border-right:4px solid #cc785c">
-      <div class="card-header">
-        <div class="card-title">Claude Platform 101 </div>
-        <a class="card-url" href="https://anthropic.skilljar.com/claude-platform-101" target="_blank" rel="noopener">anthropic.skilljar.com/claude-platform-101</a>
-      </div>
-      <p class="card-desc">קורס הכניסה הרשמי למפתחים. מכסה Claude API מ-A עד Z: message requests, streaming, tool use, prompt caching ו-production deployment. 84 לקציות ומעל 8 שעות תוכן.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
-        <span class="badge dur-badge">⏱ 8 שעות</span>
-        <span class="rating-text">84 לקציות | חינמי עם תעודה רשמית | Anthropic Academy</span>
-      </div>
-    </div>
-
-    <div class="card" style="border-right:4px solid #cc785c">
-      <div class="card-header">
-        <div class="card-title">Claude Code 101 </div>
-        <a class="card-url" href="https://anthropic.skilljar.com/claude-code-101" target="_blank" rel="noopener">anthropic.skilljar.com/claude-code-101</a>
-      </div>
-      <p class="card-desc">קורס ייעודי ל-Claude Code, כלי הפיתוח האג&#x27;נטי של Anthropic. מכסה MCP, agent skills ובניית workflows לפיתוח תוכנה אוטומטי. חינמי עם תעודה.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
-        <span class="badge dur-badge">⏱ 3 שעות</span>
-        <span class="rating-text">חינמי עם תעודה | עודכן 2026 | Anthropic Academy</span>
-      </div>
-    </div>
-
-    <div class="card" style="border-right:4px solid #cc785c">
-      <div class="card-header">
-        <div class="card-title">Claude with Amazon Bedrock </div>
-        <a class="card-url" href="https://anthropic.skilljar.com/claude-in-amazon-bedrock" target="_blank" rel="noopener">anthropic.skilljar.com/claude-in-amazon-bedrock</a>
-      </div>
-      <p class="card-desc">קורס ייעודי לשימוש ב-Claude דרך AWS Bedrock. מכסה deployment, enterprise integration ועבודה עם Bedrock Knowledge Bases ל-RAG. מתאים לצוותים שעובדים עם AWS.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#1565c022;color:#1565c0;border:1px solid #1565c044">בינוני</span>
-        <span class="badge dur-badge">⏱ 2 שעות</span>
-        <span class="rating-text">חינמי עם תעודה | ייעודי לצוותי AWS | Anthropic Academy</span>
-      </div>
-    </div>
-
-    <div class="card" style="border-right:4px solid #cc785c">
+    <div class="card" data-level="beginner" style="border-right:4px solid #cc785c">
       <div class="card-header">
         <div class="card-title">AI Fluency for Small Businesses </div>
         <a class="card-url" href="https://anthropic.skilljar.com/ai-fluency-for-small-businesses" target="_blank" rel="noopener">anthropic.skilljar.com/ai-fluency-for-small-businesses</a>
@@ -535,12 +504,67 @@
       <p class="card-desc">לצוותים לא-טכניים. שימוש ב-Claude לפרודוקטיביות ארגונית, כתיבת מסמכים, ניתוח נתונים ואוטומציה של תהליכים ללא כתיבת קוד. חינמי עם תעודת גמר.</p>
       <div class="card-meta">
         <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ 2 שעות</span>
+        <span class="badge dur-badge">&#9201; 2 שעות</span>
         <span class="rating-text">חינמי עם תעודה | מותאם לצוותים עסקיים ולא-טכניים</span>
       </div>
     </div>
+      </div>
+    </div>
+    <div class="level-section" data-group="intermediate">
+      <div class="level-header" style="color:#1565c0;border-right:3px solid #1565c0;background:#e3f2fd">
+        <span>בינוני</span>
+        <span class="level-count">1 קורס</span>
+      </div>
+      <div class="cards-grid">
 
-    <div class="card" style="border-right:4px solid #cc785c">
+    <div class="card" data-level="intermediate" style="border-right:4px solid #cc785c">
+      <div class="card-header">
+        <div class="card-title">Claude with Amazon Bedrock </div>
+        <a class="card-url" href="https://anthropic.skilljar.com/claude-in-amazon-bedrock" target="_blank" rel="noopener">anthropic.skilljar.com/claude-in-amazon-bedrock</a>
+      </div>
+      <p class="card-desc">קורס ייעודי לשימוש ב-Claude דרך AWS Bedrock. מכסה deployment, enterprise integration ועבודה עם Bedrock Knowledge Bases ל-RAG. מתאים לצוותים שעובדים עם AWS.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#1565c022;color:#1565c0;border:1px solid #1565c044">בינוני</span>
+        <span class="badge dur-badge">&#9201; 2 שעות</span>
+        <span class="rating-text">חינמי עם תעודה | ייעודי לצוותי AWS | Anthropic Academy</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="level-section" data-group="advanced">
+      <div class="level-header" style="color:#6a1b9a;border-right:3px solid #6a1b9a;background:#f3e5f5">
+        <span>מפתחים</span>
+        <span class="level-count">5 קורסים</span>
+      </div>
+      <div class="cards-grid">
+
+    <div class="card" data-level="advanced" style="border-right:4px solid #cc785c">
+      <div class="card-header">
+        <div class="card-title">Claude Platform 101 </div>
+        <a class="card-url" href="https://anthropic.skilljar.com/claude-platform-101" target="_blank" rel="noopener">anthropic.skilljar.com/claude-platform-101</a>
+      </div>
+      <p class="card-desc">קורס הכניסה הרשמי למפתחים. מכסה Claude API מ-A עד Z: message requests, streaming, tool use, prompt caching ו-production deployment. 84 לקציות ומעל 8 שעות תוכן.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
+        <span class="badge dur-badge">&#9201; 8 שעות</span>
+        <span class="rating-text">84 לקציות | חינמי עם תעודה רשמית | Anthropic Academy</span>
+      </div>
+    </div>
+
+    <div class="card" data-level="advanced" style="border-right:4px solid #cc785c">
+      <div class="card-header">
+        <div class="card-title">Claude Code 101 </div>
+        <a class="card-url" href="https://anthropic.skilljar.com/claude-code-101" target="_blank" rel="noopener">anthropic.skilljar.com/claude-code-101</a>
+      </div>
+      <p class="card-desc">קורס ייעודי ל-Claude Code, כלי הפיתוח האג&#x27;נטי של Anthropic. מכסה MCP, agent skills ובניית workflows לפיתוח תוכנה אוטומטי. חינמי עם תעודה.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
+        <span class="badge dur-badge">&#9201; 3 שעות</span>
+        <span class="rating-text">חינמי עם תעודה | עודכן 2026 | Anthropic Academy</span>
+      </div>
+    </div>
+
+    <div class="card" data-level="advanced" style="border-right:4px solid #cc785c">
       <div class="card-header">
         <div class="card-title">Claude Code in Action </div>
         <a class="card-url" href="https://anthropic.skilljar.com/claude-code-in-action" target="_blank" rel="noopener">anthropic.skilljar.com/claude-code-in-action</a>
@@ -548,12 +572,12 @@
       <p class="card-desc">קורס מתקדם של Anthropic Academy על שילוב Claude Code ב-workflow הפיתוח. מכסה ארכיטקטורת coding assistant, tool use, ניהול הקשר ואינטגרציה עם GitHub. 24 לקציות ב-4 פרקים, מעשי לחלוטין.</p>
       <div class="card-meta">
         <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
-        <span class="badge dur-badge">⏱ 3 עד 4 שעות</span>
+        <span class="badge dur-badge">&#9201; 3 עד 4 שעות</span>
         <span class="rating-text">חינמי עם תעודה | 24 לקציות | Anthropic Academy | 2026</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #cc785c">
+    <div class="card" data-level="advanced" style="border-right:4px solid #cc785c">
       <div class="card-header">
         <div class="card-title">Claude with Google Cloud Vertex AI </div>
         <a class="card-url" href="https://anthropic.skilljar.com/claude-with-google-vertex" target="_blank" rel="noopener">anthropic.skilljar.com/claude-with-google-vertex</a>
@@ -561,26 +585,27 @@
       <p class="card-desc">ההכשרה הטכנית המקיפה ביותר לשילוב Claude ב-Vertex AI של Google. מכסה API requests, tool use, RAG ו-Model Context Protocol. מעל 70 לקציות ב-11 פרקים. מותאם לצוותים עם Google Cloud.</p>
       <div class="card-meta">
         <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
-        <span class="badge dur-badge">⏱ 8 עד 10 שעות</span>
+        <span class="badge dur-badge">&#9201; 8 עד 10 שעות</span>
         <span class="rating-text">חינמי עם תעודה | 70+ לקציות | Anthropic Academy | Google Cloud</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #ff0000">
+    <div class="card" data-level="advanced" style="border-right:4px solid #ff0000">
       <div class="card-header">
-        <div class="card-title">Mastering Claude Code in 30 Minutes <span class="yt-badge">▶ YouTube</span></div>
+        <div class="card-title">Mastering Claude Code in 30 Minutes <span class="yt-badge">&#9654; YouTube</span></div>
         <a class="card-url" href="https://youtube.com/watch?v=6eBSHbLKuN0" target="_blank" rel="noopener">youtube.com/watch?v=6eBSHbLKuN0</a>
       </div>
       <p class="card-desc">הסרטון הרשמי של Anthropic עצמה. הנצפה ביותר על Claude Code: agent workflows, MCP, כלים חיצוניים ו-production tips. מוצג על ידי הצוות שבנה את Claude Code.</p>
       <div class="card-meta">
         <span class="badge" style="background:#6a1b9a22;color:#6a1b9a;border:1px solid #6a1b9a44">מפתחים</span>
-        <span class="badge dur-badge">⏱ 28 דקות</span>
+        <span class="badge dur-badge">&#9201; 28 דקות</span>
         <span class="rating-text">1.4M צפיות | Anthropic | הנצפה ביותר על Claude Code</span>
       </div>
     </div>
+      </div>
     </div>
-    <div class="callout" style="background:#fdf0ec;border-right:4px solid #cc785c">
-      <div class="callout-title" style="color:#cc785c">💡 המלצה לצוות</div>
+    <div class="callout" style="background:#fdf0ec;border-right:4px solid #cc785c;margin-top:8px">
+      <div class="callout-title" style="color:#cc785c">&#128161; המלצה לצוות</div>
       <p class="callout-body">Anthropic Academy (anthropic.skilljar.com) היא נקודת ההתחלה: חינמית, 20+ קורסים עם תעודות, עודכנה 2026. לצוות טכני: Claude Platform 101 (8 שעות). לצוות עסקי: AI Fluency. לצוותי AWS: Claude with Amazon Bedrock. לצוותי Google Cloud: Claude with Vertex AI (70+ לקציות).</p>
     </div>
   </section>
@@ -590,9 +615,15 @@
       <h2 class="tool-name">Microsoft Azure AI Foundry</h2>
     </div>
     <p class="tool-desc">Microsoft Azure AI Foundry היא הפלטפורמה הארגונית המאוחדת של Microsoft לבניית יישומי AI. היא מאחדת מודלי OpenAI, Meta Llama ו-Mistral תחת תשתית Azure אחת עם ניהול agents, RAG ו-responsible AI. שמה הקודם היה Azure OpenAI Service.</p>
-    <div class="cards-grid">
+    
+    <div class="level-section" data-group="beginner">
+      <div class="level-header" style="color:#2e7d32;border-right:3px solid #2e7d32;background:#e8f5e9">
+        <span>מתחיל</span>
+        <span class="level-count">5 קורסים</span>
+      </div>
+      <div class="cards-grid">
 
-    <div class="card" style="border-right:4px solid #0078d4">
+    <div class="card" data-level="beginner" style="border-right:4px solid #0078d4">
       <div class="card-header">
         <div class="card-title">Develop Generative AI Apps in Microsoft Foundry </div>
         <a class="card-url" href="https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps" target="_blank" rel="noopener">learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps</a>
@@ -600,51 +631,25 @@
       <p class="card-desc">נתיב למידה רשמי וחינמי של Microsoft, עודכן מאי 2026. שישה מודולים: הכנת סביבה, בחירת מודלים, בניית chat app, שימוש ב-tools, אופטימיזציה ו-Responsible AI. Labs בדפדפן חינם.</p>
       <div class="card-meta">
         <span class="badge" style="background:#388e3c22;color:#388e3c;border:1px solid #388e3c44">מתחיל עד בינוני</span>
-        <span class="badge dur-badge">⏱ 8 עד 12 שעות</span>
+        <span class="badge dur-badge">&#9201; 8 עד 12 שעות</span>
         <span class="rating-text">הדרכה רשמית של Microsoft | עודכן מאי 2026 | Labs חינמיים בדפדפן</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #0078d4">
+    <div class="card" data-level="beginner" style="border-right:4px solid #ff0000">
       <div class="card-header">
-        <div class="card-title">Microsoft AI Agent Fundamentals </div>
-        <a class="card-url" href="https://coursera.org/learn/microsoft-ai-agent-fundamentals" target="_blank" rel="noopener">coursera.org/learn/microsoft-ai-agent-fundamentals</a>
-      </div>
-      <p class="card-desc">קורס של Microsoft ב-Coursera, חינמי לצפייה. מלמד יסודות בניית AI Agents עם Azure AI Foundry, multi-agent systems ו-Python. 4 מודולים, שבועיים.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#1565c022;color:#1565c0;border:1px solid #1565c044">בינוני</span>
-        <span class="badge dur-badge">⏱ 20 שעות</span>
-        <span class="rating-text">3.8/5 | 11,291 לומדים | חינמי לצפייה ב-Coursera</span>
-      </div>
-    </div>
-
-    <div class="card" style="border-right:4px solid #0078d4">
-      <div class="card-header">
-        <div class="card-title">Microsoft Generative AI Engineering </div>
-        <a class="card-url" href="https://coursera.org/professional-certificates/microsoft-generative-ai-engineering" target="_blank" rel="noopener">coursera.org/professional-certificates/microsoft-generative-ai-engineering</a>
-      </div>
-      <p class="card-desc">תעודה מקצועית של Microsoft ב-Coursera. מכסה בניית ופיתוח מודלי AI generative עם Azure AI Foundry, fine-tuning ו-Azure OpenAI. ניתן לצפות חינם. עודכן ינואר 2026.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#1976d222;color:#1976d2;border:1px solid #1976d244">בינוני עד מתקדם</span>
-        <span class="badge dur-badge">⏱ 6 שבועות</span>
-        <span class="rating-text">4.3/5 | 8,339 לומדים | עודכן ינואר 2026 | ניתן לצפות חינם</span>
-      </div>
-    </div>
-
-    <div class="card" style="border-right:4px solid #ff0000">
-      <div class="card-header">
-        <div class="card-title">Introducing Azure AI Foundry — Everything for AI Development <span class="yt-badge">▶ YouTube</span></div>
+        <div class="card-title">Introducing Azure AI Foundry — Everything for AI Development <span class="yt-badge">&#9654; YouTube</span></div>
         <a class="card-url" href="https://youtube.com/watch?v=GD7MnIwAxYM" target="_blank" rel="noopener">youtube.com/watch?v=GD7MnIwAxYM</a>
       </div>
       <p class="card-desc">הסרטון הרשמי של Microsoft Mechanics. סקירה מקיפה של Azure AI Foundry: model catalog, prompt flow, agents, ו-safety. מוצג על ידי צוות Microsoft, עודכן 2025.</p>
       <div class="card-meta">
         <span class="badge" style="background:#388e3c22;color:#388e3c;border:1px solid #388e3c44">מתחיל עד בינוני</span>
-        <span class="badge dur-badge">⏱ 13 דקות</span>
+        <span class="badge dur-badge">&#9201; 13 דקות</span>
         <span class="rating-text">254K צפיות | Microsoft Mechanics | הנצפה ביותר על Azure AI Foundry</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #0078d4">
+    <div class="card" data-level="beginner" style="border-right:4px solid #0078d4">
       <div class="card-header">
         <div class="card-title">Career Essentials in Generative AI — Microsoft &amp; LinkedIn </div>
         <a class="card-url" href="https://linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin" target="_blank" rel="noopener">linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin</a>
@@ -652,12 +657,12 @@
       <p class="card-desc">מסלול של Microsoft ו-LinkedIn Learning: 5 קורסים על יסודות GenAI, Microsoft Copilot, AI לעסקים ואתיקה ב-AI. מיועד לכל בעל תפקיד ארגוני. דורש LinkedIn Learning — זמין לרוב בחינם דרך המעסיק.</p>
       <div class="card-meta">
         <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ 4 שעות</span>
+        <span class="badge dur-badge">&#9201; 4 שעות</span>
         <span class="rating-text">Microsoft + LinkedIn | 5 קורסים | ייתכן זמין חינם דרך המעסיק</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #0078d4">
+    <div class="card" data-level="beginner" style="border-right:4px solid #0078d4">
       <div class="card-header">
         <div class="card-title">Microsoft AI for Beginners </div>
         <a class="card-url" href="https://microsoft.github.io/AI-For-Beginners/" target="_blank" rel="noopener">microsoft.github.io/AI-For-Beginners/</a>
@@ -665,12 +670,12 @@
       <p class="card-desc">קוריקולום פתוח וחינמי של Microsoft ב-GitHub. 12 שבועות, 24 לקציות: Symbolic AI, Neural Networks, NLP, Computer Vision ו-GenAI. Labs מעשיים ב-Python. מושלם ללמידה עצמאית מקצה לקצה.</p>
       <div class="card-meta">
         <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ 12 שבועות</span>
+        <span class="badge dur-badge">&#9201; 12 שבועות</span>
         <span class="rating-text">חינמי לחלוטין | 24 לקציות | Microsoft | 39K+ כוכבים ב-GitHub</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #0078d4">
+    <div class="card" data-level="beginner" style="border-right:4px solid #0078d4">
       <div class="card-header">
         <div class="card-title">Azure AI Fundamentals (AI-900) </div>
         <a class="card-url" href="https://learn.microsoft.com/credentials/certifications/azure-ai-fundamentals" target="_blank" rel="noopener">learn.microsoft.com/credentials/certifications/azure-ai-fundamentals</a>
@@ -678,13 +683,48 @@
       <p class="card-desc">הסמכת הכניסה הרשמית של Microsoft ל-AI. כל חומרי ההכנה חינמיים ב-Microsoft Learn. עודכנה אפריל 2026 עם תוכן AI Foundry חדש. נותנת בסיס מוצק לפני הסמכת AI Engineer המתקדמת.</p>
       <div class="card-meta">
         <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ 10 שעות הכנה</span>
+        <span class="badge dur-badge">&#9201; 10 שעות הכנה</span>
         <span class="rating-text">ההסמכה הנפוצה ביותר של Microsoft AI | עודכנה אפריל 2026</span>
       </div>
     </div>
+      </div>
     </div>
-    <div class="callout" style="background:#e6f2fc;border-right:4px solid #0078d4">
-      <div class="callout-title" style="color:#0078d4">💡 המלצה לצוות</div>
+    <div class="level-section" data-group="intermediate">
+      <div class="level-header" style="color:#1565c0;border-right:3px solid #1565c0;background:#e3f2fd">
+        <span>בינוני</span>
+        <span class="level-count">2 קורסים</span>
+      </div>
+      <div class="cards-grid">
+
+    <div class="card" data-level="intermediate" style="border-right:4px solid #0078d4">
+      <div class="card-header">
+        <div class="card-title">Microsoft AI Agent Fundamentals </div>
+        <a class="card-url" href="https://coursera.org/learn/microsoft-ai-agent-fundamentals" target="_blank" rel="noopener">coursera.org/learn/microsoft-ai-agent-fundamentals</a>
+      </div>
+      <p class="card-desc">קורס של Microsoft ב-Coursera, חינמי לצפייה. מלמד יסודות בניית AI Agents עם Azure AI Foundry, multi-agent systems ו-Python. 4 מודולים, שבועיים.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#1565c022;color:#1565c0;border:1px solid #1565c044">בינוני</span>
+        <span class="badge dur-badge">&#9201; 20 שעות</span>
+        <span class="rating-text">3.8/5 | 11,291 לומדים | חינמי לצפייה ב-Coursera</span>
+      </div>
+    </div>
+
+    <div class="card" data-level="intermediate" style="border-right:4px solid #0078d4">
+      <div class="card-header">
+        <div class="card-title">Microsoft Generative AI Engineering </div>
+        <a class="card-url" href="https://coursera.org/professional-certificates/microsoft-generative-ai-engineering" target="_blank" rel="noopener">coursera.org/professional-certificates/microsoft-generative-ai-engineering</a>
+      </div>
+      <p class="card-desc">תעודה מקצועית של Microsoft ב-Coursera. מכסה בניית ופיתוח מודלי AI generative עם Azure AI Foundry, fine-tuning ו-Azure OpenAI. ניתן לצפות חינם. עודכן ינואר 2026.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#1976d222;color:#1976d2;border:1px solid #1976d244">בינוני עד מתקדם</span>
+        <span class="badge dur-badge">&#9201; 6 שבועות</span>
+        <span class="rating-text">4.3/5 | 8,339 לומדים | עודכן ינואר 2026 | ניתן לצפות חינם</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="callout" style="background:#e6f2fc;border-right:4px solid #0078d4;margin-top:8px">
+      <div class="callout-title" style="color:#0078d4">&#128161; המלצה לצוות</div>
       <p class="callout-body">לצוות כולו: Microsoft Learn (develop-generative-ai-apps) עודכן מאי 2026, חינמי, 6 מודולים עם labs. לכניסה מהירה ללא רקע טכני: Microsoft AI for Beginners ב-GitHub (24 לקציות, חינמי). הסמכת AI-900 מומלצת לפני Azure AI Engineer. LinkedIn Learning זמין לרוב דרך המעסיק.</p>
     </div>
   </section>
@@ -694,35 +734,15 @@
       <h2 class="tool-name">Amazon Bedrock (AWS)</h2>
     </div>
     <p class="tool-desc">Amazon Bedrock הוא שירות ה-AI המנוהל של AWS. הוא מאפשר גישה ל-30 מודלים ויותר: Anthropic Claude, Meta Llama, Mistral ו-Amazon Nova, דרך API אחיד. כולל Bedrock Knowledge Bases ל-RAG, Bedrock Agents ו-Bedrock Guardrails. AWS Skill Builder מציע מעל 600 קורסים חינמיים.</p>
-    <div class="cards-grid">
+    
+    <div class="level-section" data-group="beginner">
+      <div class="level-header" style="color:#2e7d32;border-right:3px solid #2e7d32;background:#e8f5e9">
+        <span>מתחיל</span>
+        <span class="level-count">3 קורסים</span>
+      </div>
+      <div class="cards-grid">
 
-    <div class="card" style="border-right:4px solid #ff0000">
-      <div class="card-header">
-        <div class="card-title">Enterprise AI with Amazon Bedrock <span class="yt-badge">▶ YouTube</span></div>
-        <a class="card-url" href="https://youtube.com/watch?v=HaUe2AN210g" target="_blank" rel="noopener">youtube.com/watch?v=HaUe2AN210g</a>
-      </div>
-      <p class="card-desc">קורס וידאו בן 6 שעות ב-YouTube של freeCodeCamp.org. פותח על ידי Suman Debnath מ-Amazon עצמה. מכסה embeddings, RAG, multimodal agents ו-Amazon Nova. תוכן מעמיק ומעשי.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#1976d222;color:#1976d2;border:1px solid #1976d244">בינוני עד מתקדם</span>
-        <span class="badge dur-badge">⏱ 6 שעות</span>
-        <span class="rating-text">freeCodeCamp: 9M+ מנויים | Suman Debnath, Amazon | מיליוני צפיות</span>
-      </div>
-    </div>
-
-    <div class="card" style="border-right:4px solid #ff9900">
-      <div class="card-header">
-        <div class="card-title">AWS Skill Builder </div>
-        <a class="card-url" href="https://skillbuilder.aws" target="_blank" rel="noopener">skillbuilder.aws</a>
-      </div>
-      <p class="card-desc">מעל 600 קורסים דיגיטליים חינמיים ב-AWS Skill Builder, כולל מסלולי Amazon Bedrock עדכניים מ-2026. Labs אינטראקטיביים ב-AWS Console האמיתי ללא עלות נוספת.</p>
-      <div class="card-meta">
-        <span class="badge" style="background:#546e7a22;color:#546e7a;border:1px solid #546e7a44">כל הרמות</span>
-        <span class="badge dur-badge">⏱ משתנה</span>
-        <span class="rating-text">הפלטפורמה הרשמית של AWS | 600+ קורסים חינמיים | מיליוני לומדים</span>
-      </div>
-    </div>
-
-    <div class="card" style="border-right:4px solid #ff9900">
+    <div class="card" data-level="beginner" style="border-right:4px solid #ff9900">
       <div class="card-header">
         <div class="card-title">Amazon Bedrock Getting Started </div>
         <a class="card-url" href="https://aws.amazon.com/bedrock/getting-started" target="_blank" rel="noopener">aws.amazon.com/bedrock/getting-started</a>
@@ -730,25 +750,25 @@
       <p class="card-desc">דף ההתחלה הרשמי של Amazon Bedrock מ-AWS. כולל tutorials מוצעים, workshops מונחים ו-step-by-step guides לבניית אפליקציות GenAI ראשונות. חינמי לחלוטין.</p>
       <div class="card-meta">
         <span class="badge" style="background:#388e3c22;color:#388e3c;border:1px solid #388e3c44">מתחיל עד בינוני</span>
-        <span class="badge dur-badge">⏱ 2 עד 4 שעות</span>
+        <span class="badge dur-badge">&#9201; 2 עד 4 שעות</span>
         <span class="rating-text">רשמי מ-Amazon | tutorials + workshops | חינמי ללא הרשמה</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #ff0000">
+    <div class="card" data-level="beginner" style="border-right:4px solid #ff0000">
       <div class="card-header">
-        <div class="card-title">Integrating Generative AI Models with Amazon Bedrock <span class="yt-badge">▶ YouTube</span></div>
+        <div class="card-title">Integrating Generative AI Models with Amazon Bedrock <span class="yt-badge">&#9654; YouTube</span></div>
         <a class="card-url" href="https://youtube.com/watch?v=nSQrY-uPWLY" target="_blank" rel="noopener">youtube.com/watch?v=nSQrY-uPWLY</a>
       </div>
       <p class="card-desc">הסרטון הנצפה ביותר על Amazon Bedrock ב-YouTube. מציג AWS Developers: חיבור מודלים, API calls, ו-enterprise integration. קצר, מעשי, רשמי מ-AWS.</p>
       <div class="card-meta">
         <span class="badge" style="background:#388e3c22;color:#388e3c;border:1px solid #388e3c44">מתחיל עד בינוני</span>
-        <span class="badge dur-badge">⏱ 14 דקות</span>
+        <span class="badge dur-badge">&#9201; 14 דקות</span>
         <span class="rating-text">495K צפיות | AWS Developers | הנצפה ביותר על Amazon Bedrock</span>
       </div>
     </div>
 
-    <div class="card" style="border-right:4px solid #ff9900">
+    <div class="card" data-level="beginner" style="border-right:4px solid #ff9900">
       <div class="card-header">
         <div class="card-title">Generative AI Learning Plan for Decision Makers </div>
         <a class="card-url" href="https://skillbuilder.aws/search?searchText=generative-ai-learning-plan-for-decision-makers" target="_blank" rel="noopener">skillbuilder.aws/search?searchText=generative-ai-learning-plan-for-decision-makers</a>
@@ -756,12 +776,54 @@
       <p class="card-desc">מסלול ייעודי ב-AWS Skill Builder לבעלי תפקידים עסקיים ומנהלים. מכסה מושגי GenAI לעסקים, תרחישי שימוש ב-Amazon Bedrock, ניהול סיכונים ו-Responsible AI. חינמי עם Badge דיגיטלי.</p>
       <div class="card-meta">
         <span class="badge" style="background:#2e7d3222;color:#2e7d32;border:1px solid #2e7d3244">מתחיל</span>
-        <span class="badge dur-badge">⏱ 4 עד 6 שעות</span>
+        <span class="badge dur-badge">&#9201; 4 עד 6 שעות</span>
         <span class="rating-text">חינמי | Badge דיגיטלי | מיועד למנהלים לא-טכניים | AWS Skill Builder</span>
       </div>
     </div>
+      </div>
+    </div>
+    <div class="level-section" data-group="intermediate">
+      <div class="level-header" style="color:#1565c0;border-right:3px solid #1565c0;background:#e3f2fd">
+        <span>בינוני</span>
+        <span class="level-count">1 קורס</span>
+      </div>
+      <div class="cards-grid">
 
-    <div class="card" style="border-right:4px solid #ff9900">
+    <div class="card" data-level="intermediate" style="border-right:4px solid #ff0000">
+      <div class="card-header">
+        <div class="card-title">Enterprise AI with Amazon Bedrock <span class="yt-badge">&#9654; YouTube</span></div>
+        <a class="card-url" href="https://youtube.com/watch?v=HaUe2AN210g" target="_blank" rel="noopener">youtube.com/watch?v=HaUe2AN210g</a>
+      </div>
+      <p class="card-desc">קורס וידאו בן 6 שעות ב-YouTube של freeCodeCamp.org. פותח על ידי Suman Debnath מ-Amazon עצמה. מכסה embeddings, RAG, multimodal agents ו-Amazon Nova. תוכן מעמיק ומעשי.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#1976d222;color:#1976d2;border:1px solid #1976d244">בינוני עד מתקדם</span>
+        <span class="badge dur-badge">&#9201; 6 שעות</span>
+        <span class="rating-text">freeCodeCamp: 9M+ מנויים | Suman Debnath, Amazon | מיליוני צפיות</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="level-section" data-group="all">
+      <div class="level-header" style="color:#546e7a;border-right:3px solid #546e7a;background:#eceff1">
+        <span>כל הרמות</span>
+        <span class="level-count">2 קורסים</span>
+      </div>
+      <div class="cards-grid">
+
+    <div class="card" data-level="all" style="border-right:4px solid #ff9900">
+      <div class="card-header">
+        <div class="card-title">AWS Skill Builder </div>
+        <a class="card-url" href="https://skillbuilder.aws" target="_blank" rel="noopener">skillbuilder.aws</a>
+      </div>
+      <p class="card-desc">מעל 600 קורסים דיגיטליים חינמיים ב-AWS Skill Builder, כולל מסלולי Amazon Bedrock עדכניים מ-2026. Labs אינטראקטיביים ב-AWS Console האמיתי ללא עלות נוספת.</p>
+      <div class="card-meta">
+        <span class="badge" style="background:#546e7a22;color:#546e7a;border:1px solid #546e7a44">כל הרמות</span>
+        <span class="badge dur-badge">&#9201; משתנה</span>
+        <span class="rating-text">הפלטפורמה הרשמית של AWS | 600+ קורסים חינמיים | מיליוני לומדים</span>
+      </div>
+    </div>
+
+    <div class="card" data-level="all" style="border-right:4px solid #ff9900">
       <div class="card-header">
         <div class="card-title">AWS Machine Learning Training </div>
         <a class="card-url" href="https://aws.amazon.com/training/learn-about/machine-learning" target="_blank" rel="noopener">aws.amazon.com/training/learn-about/machine-learning</a>
@@ -769,13 +831,14 @@
       <p class="card-desc">דף ההדרכה הרשמי של AWS ל-Machine Learning ו-GenAI. כולל מסלולי למידה לפי תפקיד: מפתח, מדען נתונים, ארכיטקט. מחבר לקורסים חינמיים ב-Skill Builder ל-Bedrock ו-SageMaker.</p>
       <div class="card-meta">
         <span class="badge" style="background:#546e7a22;color:#546e7a;border:1px solid #546e7a44">כל הרמות</span>
-        <span class="badge dur-badge">⏱ משתנה</span>
+        <span class="badge dur-badge">&#9201; משתנה</span>
         <span class="rating-text">הדרכה רשמית של AWS | מסלולים לפי תפקיד | חינמי</span>
       </div>
     </div>
+      </div>
     </div>
-    <div class="callout" style="background:#fff4e0;border-right:4px solid #ff9900">
-      <div class="callout-title" style="color:#ff9900">💡 המלצה לצוות</div>
+    <div class="callout" style="background:#fff4e0;border-right:4px solid #ff9900;margin-top:8px">
+      <div class="callout-title" style="color:#ff9900">&#128161; המלצה לצוות</div>
       <p class="callout-body">למנהלים: להתחיל ב-Decision Makers Learning Plan (חינמי, Badge, ללא רקע טכני). למפתחים: freeCodeCamp ב-YouTube (6 שעות, מ-Amazon עצמה). לתרגול: AWS Skill Builder עם Labs ב-Console האמיתי. לצלילה: aws.amazon.com/bedrock/getting-started עם workshops רשמיים.</p>
     </div>
   </section>
@@ -783,15 +846,43 @@
 </div>
 
 <script>
+  var currentLevel = 'all';
+
   function showTool(num) {
     document.querySelectorAll('.tool-section').forEach(s => s.style.display = 'none');
     document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-    const sec = document.getElementById('tool-' + num);
+    var sec = document.getElementById('tool-' + num);
     if (sec) sec.style.display = 'block';
-    const nav = document.querySelector('[data-tool="' + num + '"]');
+    var nav = document.querySelector('[data-tool="' + num + '"]');
     if (nav) nav.classList.add('active');
+    applyFilter(currentLevel);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
+  function filterLevel(level) {
+    currentLevel = level;
+    document.querySelectorAll('.level-btn').forEach(function(b) { b.classList.remove('active'); });
+    var btn = document.querySelector('[data-filter="' + level + '"]');
+    if (btn) btn.classList.add('active');
+    applyFilter(level);
+  }
+
+  function applyFilter(level) {
+    document.querySelectorAll('.tool-section').forEach(function(section) {
+      if (section.style.display === 'none') return;
+      section.querySelectorAll('.card').forEach(function(card) {
+        var lv = card.dataset.level;
+        card.style.display = (level === 'all' || lv === level || lv === 'all') ? '' : 'none';
+      });
+      section.querySelectorAll('.level-section').forEach(function(ls) {
+        var hasVisible = Array.from(ls.querySelectorAll('.card')).some(function(c) {
+          return c.style.display !== 'none';
+        });
+        ls.style.display = hasVisible ? '' : 'none';
+      });
+    });
+  }
+
   showTool('01');
 </script>
 </body>
