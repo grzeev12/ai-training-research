@@ -1,0 +1,6 @@
+*.py
+requirements.txt
+output/
+venv/
+__pycache__/
+README.txt
