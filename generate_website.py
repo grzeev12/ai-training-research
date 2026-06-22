@@ -374,9 +374,76 @@ def build_html():
     padding: 24px 28px; margin-bottom: 24px;
     font-size: 14px; color: #444; line-height: 1.8;
   }}
+
+  /* Hamburger (mobile only) */
+  .hamburger {{
+    display: none; flex-direction: column; justify-content: center;
+    align-items: center; gap: 5px; width: 36px; height: 36px;
+    cursor: pointer; border: none; background: none;
+    border-radius: 6px; flex-shrink: 0;
+  }}
+  .hamburger:hover {{ background: #f0f0f0; }}
+  .hamburger span {{
+    width: 22px; height: 2px; background: #555; border-radius: 2px;
+  }}
+
+  /* Overlay backdrop (mobile only) */
+  .overlay {{
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.45); z-index: 99;
+  }}
+  .overlay.open {{ display: block; }}
+
+  /* ── Mobile ─────────────────────────────────── */
+  @media (max-width: 767px) {{
+    body {{ display: block; }}
+
+    .sidebar {{
+      transform: translateX(110%);
+      transition: transform 0.25s ease;
+      width: 280px;
+    }}
+    .sidebar.open {{ transform: translateX(0); }}
+
+    .hamburger {{ display: flex; }}
+
+    .main {{ margin-right: 0; }}
+
+    .topbar {{
+      padding: 10px 14px;
+      flex-wrap: nowrap; gap: 10px;
+    }}
+    .topbar-title {{ font-size: 14px; }}
+    .topbar-sub   {{ font-size: 10px; }}
+    .topbar-badge {{ display: none; }}
+
+    .level-bar {{
+      padding: 7px 14px; top: 53px;
+      overflow-x: auto; flex-wrap: nowrap; gap: 6px;
+    }}
+    .level-bar::-webkit-scrollbar {{ display: none; }}
+    .level-bar-label {{ display: none; }}
+    .level-btn {{ font-size: 11px; padding: 3px 11px; white-space: nowrap; }}
+
+    .content {{ padding: 12px; }}
+
+    .tool-header {{ padding: 14px 18px; gap: 10px; }}
+    .tool-name   {{ font-size: 17px; }}
+    .tool-desc   {{ padding: 12px 16px; font-size: 13px; }}
+
+    .card {{ padding: 13px 14px; }}
+    .card-title {{ font-size: 14px; }}
+    .card-desc  {{ font-size: 12px; }}
+    .rating-text {{ font-size: 10px; }}
+
+    .callout {{ padding: 13px 16px; }}
+    .callout-body {{ font-size: 12px; }}
+  }}
 </style>
 </head>
 <body>
+
+<div class="overlay" onclick="closeSidebar()"></div>
 
 <nav class="sidebar">
   <div class="sidebar-logo">
@@ -390,7 +457,10 @@ def build_html():
 
 <div class="main">
   <div class="topbar">
-    <div>
+    <button class="hamburger" onclick="toggleSidebar()" aria-label="תפריט">
+      <span></span><span></span><span></span>
+    </button>
+    <div style="flex:1;min-width:0">
       <div class="topbar-title">מרכז הדרכה לכלי AI ארגוניים</div>
       <div class="topbar-sub">5 כלים &middot; {total} קורסים מאומתים &middot; כמעט כולם חינמיים</div>
     </div>
@@ -430,6 +500,15 @@ def build_html():
 <script>
   var currentLevel = 'all';
 
+  function toggleSidebar() {{
+    document.querySelector('.sidebar').classList.toggle('open');
+    document.querySelector('.overlay').classList.toggle('open');
+  }}
+  function closeSidebar() {{
+    document.querySelector('.sidebar').classList.remove('open');
+    document.querySelector('.overlay').classList.remove('open');
+  }}
+
   function showTool(num) {{
     document.querySelectorAll('.tool-section').forEach(s => s.style.display = 'none');
     document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
@@ -438,6 +517,7 @@ def build_html():
     var nav = document.querySelector('[data-tool="' + num + '"]');
     if (nav) nav.classList.add('active');
     applyFilter(currentLevel);
+    closeSidebar();
     window.scrollTo({{ top: 0, behavior: 'smooth' }});
   }}
 
