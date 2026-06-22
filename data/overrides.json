@@ -1,1 +1,79 @@
-{"overrides": []}
+{
+  "overrides": [
+    {
+      "tool_number": "01",
+      "tool_name": "Gemini Enterprise (Google)",
+      "replace_url": "ai.google.dev/gemini-api/docs",
+      "replaced_course_name": "Gemini API — Google AI for Developers",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "Google AI Essentials Specialization",
+        "url": "www.coursera.org/specializations/ai-essentials-google",
+        "desc": "הקורס מספק הכשרה עצמאית לאנשים בתפקידים ובתעשיות שונות כדי לרכוש מיומנויות בינה מלאכותית לשיפור הפרודוקטיביות. אין צורך בניסיון קודם.",
+        "level": "מתחיל",
+        "dur": "ללא הגבלת זמן",
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
+      }
+    },
+    {
+      "tool_number": "02",
+      "tool_name": "ChatGPT Enterprise (OpenAI)",
+      "replace_url": "youtube.com/watch?v=0Q1AQAxpdGg",
+      "replaced_course_name": "How to Create Custom GPT",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "ChatGPT Prompt Engineering for Developers",
+        "url": "www.coursera.org/learn/chatgpt-prompt-engineering-for-developers",
+        "desc": "הקורס מתמקד בהנדסת פקודות עבור ChatGPT, ומספק ניסיון מעשי ביצירת פקודות לשליטה בתגובות המודל. הוא מיועד למפתחים ומציע כלים וטכניקות לשיפור האינטראקציה עם המודל.",
+        "level": "מפתחים",
+        "dur": "4 שבועות",
+        "rating": "DeepLearning.AI, 4M+ לומדים, חינם"
+      }
+    },
+    {
+      "tool_number": "03",
+      "tool_name": "Claude Enterprise (Anthropic)",
+      "replace_url": "youtube.com/watch?v=6eBSHbLKuN0",
+      "replaced_course_name": "Mastering Claude Code in 30 Minutes",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "Anthropic Academy Guide: All 13 Free Claude Courses",
+        "url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
+        "desc": "מדריך מקיף על כל הקורסים החינמיים של אנטרופיק. הקורסים מכסים את הבסיסים של Claude, פיתוח API, קוד Claude, MCP ומיומנויות סוכנים.",
+        "level": "כל הרמות",
+        "dur": "לא צוין",
+        "rating": "מדריך חינמי, פלטפורמת Termdock, ללא עלות"
+      }
+    },
+    {
+      "tool_number": "04",
+      "tool_name": "Microsoft Azure AI Foundry",
+      "replace_url": "youtube.com/watch?v=GD7MnIwAxYM",
+      "replaced_course_name": "Introducing Azure AI Foundry — Everything for AI Development",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "Microsoft AI & ML Engineering Professional Certificate",
+        "url": "www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering",
+        "desc": "הקורס מכין אותך לקריירה בהנדסת בינה מלאכותית ולמידת מכונה. תלמד לבנות, לפרוס ולחדש עם טכניקות מתקדמות ופרויקטים מעשיים.",
+        "level": "בינוני",
+        "dur": "4 חודשים",
+        "rating": "Coursera, 4.7/5, חינמי"
+      }
+    },
+    {
+      "tool_number": "05",
+      "tool_name": "Amazon Bedrock (AWS)",
+      "replace_url": "youtube.com/watch?v=HaUe2AN210g",
+      "replaced_course_name": "Enterprise AI with Amazon Bedrock",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "AWS Generative AI and AI Agents with Amazon Bedrock",
+        "url": "www.coursera.org/professional-certificates/aws-generative-ai-developers",
+        "desc": "הקורס מיועד למפתחים ומהנדסי DevOps, ומספק את הכישורים הנדרשים לשימוש בשירותי AI גנרטיביים של AWS, במיוחד Amazon Bedrock. הקורס כולל תרגולים מעשיים ופרויקטים שיסייעו בהבנת הכלים והטכניקות המתקדמות.",
+        "level": "מפתחים",
+        "dur": "4 שבועות",
+        "rating": "Coursera, 100K+ לומדים, חינמי"
+      }
+    }
+  ]
+}
