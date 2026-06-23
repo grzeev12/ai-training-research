@@ -74,6 +74,81 @@
         "dur": "4 שבועות",
         "rating": "Coursera, 100K+ לומדים, חינמי"
       }
+    },
+    {
+      "tool_number": "01",
+      "tool_name": "Gemini Enterprise (Google)",
+      "replace_url": "youtube.com/watch?v=bTLmt9BKGVc",
+      "replaced_course_name": "Master Gemini 3.1 for Work in 12 Minutes",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "Google AI Essentials Specialization",
+        "url": "www.coursera.org/specializations/ai-essentials-google",
+        "desc": "הקורס הזה הוא תוכנית בקצב עצמי שנועדה לעזור לאנשים בתפקידים ובתעשיות שונות לרכוש מיומנויות בינה מלאכותית כדי לשפר את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
+        "level": "מתחיל",
+        "dur": "4 חודשים",
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
+      }
+    },
+    {
+      "tool_number": "02",
+      "tool_name": "ChatGPT Enterprise (OpenAI)",
+      "replace_url": "developers.openai.com/cookbook",
+      "replaced_course_name": "OpenAI Developer Cookbook",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "ChatGPT Prompt Engineering for Developers",
+        "url": "www.coursera.org/learn/chatgpt-prompt-engineering-for-developers",
+        "desc": "הקורס מלמד כיצד לכתוב פקודות יעילות עבור ChatGPT, כולל טכניקות מתקדמות לשיפור התוצאות. הוא מיועד למפתחים ומספק ניסיון מעשי בעבודה עם מודלים של שפה.",
+        "level": "מפתחים",
+        "dur": "4 שבועות",
+        "rating": "DeepLearning.AI, 4M+ לומדים, חינם"
+      }
+    },
+    {
+      "tool_number": "03",
+      "tool_name": "Claude Enterprise (Anthropic)",
+      "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
+      "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "AI Learning Resources & Guides from Anthropic",
+        "url": "www.anthropic.com/learn",
+        "desc": "הקורס מציע מדריכים מקיפים, טיוטות וטכניקות עבודה עם Claude. תלמדו כיצד לנסח פקודות אפקטיביות ולמקסם את האינטראקציות עם ה-AI.",
+        "level": "כל הרמות",
+        "dur": "זמין ללא הגבלה",
+        "rating": "Anthropic Academy, גישה חינמית"
+      }
+    },
+    {
+      "tool_number": "04",
+      "tool_name": "Microsoft Azure AI Foundry",
+      "replace_url": "linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin",
+      "replaced_course_name": "Career Essentials in Generative AI — Microsoft & LinkedIn",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "Microsoft Certified: Azure AI Fundamentals",
+        "url": "learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+        "desc": "הקורס הזה מציע הבנה בסיסית של מושגי AI הקשורים לפיתוח תוכנה ושירותים על גבי Microsoft Azure. הוא מיועד למי שמעוניין ליצור פתרונות AI בעזרת הכלים של מיקרוסופט.",
+        "level": "מתחיל",
+        "dur": "1 שעה",
+        "rating": "Microsoft, חינמי"
+      }
+    },
+    {
+      "tool_number": "05",
+      "tool_name": "Amazon Bedrock (AWS)",
+      "replace_url": "youtube.com/watch?v=nSQrY-uPWLY",
+      "replaced_course_name": "Integrating Generative AI Models with Amazon Bedrock",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "AWS Generative AI and AI Agents with Amazon Bedrock",
+        "url": "www.coursera.org/professional-certificates/aws-generative-ai-developers",
+        "desc": "הקורס הזה מיועד למפתחים ומהנדסי DevOps, ויתן לך את הכלים להשתמש בשירותי ה-AI הגנרטיבי של AWS, במיוחד Amazon Bedrock. תלמד כיצד לבנות אפליקציות חכמות עם טכנולוגיות מתקדמות.",
+        "level": "מפתחים",
+        "dur": "4 חודשים",
+        "rating": "Coursera, 100K+ לומדים, חינמי"
+      }
     }
   ]
 }
