@@ -151,21 +151,6 @@
       }
     },
     {
-      "tool_number": "03",
-      "tool_name": "Claude Enterprise (Anthropic)",
-      "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
-      "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-      "candidate_score": 7,
-      "new_course": {
-        "name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-        "url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
-        "desc": "מדריך מקיף לפלטפורמת הלמידה הרשמית של אנתרופיק. כולל 13 קורסים המכסים את יסודות קלוד, פיתוח API, קלוד קוד, MCP, וסוכנויות.",
-        "level": "כל הרמות",
-        "dur": "לא צוין",
-        "rating": "פלטפורמת Termdock, ללא עלות"
-      }
-    },
-    {
       "tool_number": "04",
       "tool_name": "Microsoft Azure AI Foundry",
       "replace_url": "microsoft.github.io/AI-For-Beginners/",
@@ -193,6 +178,21 @@
         "level": "מפתחים",
         "dur": "4 חודשים",
         "rating": "Coursera, 100K+ לומדים, חינמי"
+      }
+    },
+    {
+      "tool_number": "03",
+      "tool_name": "Claude Enterprise (Anthropic)",
+      "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
+      "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
+      "candidate_score": 7,
+      "new_course": {
+        "name": "Anthropic Academy Guide: All 13 Free Claude Courses",
+        "url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
+        "desc": "מדריך מקיף לפלטפורמת הלמידה החינמית של Anthropic. כולל 13 קורסים המכסים את יסודות Claude, פיתוח API, Claude Code, MCP ו-Agent.",
+        "level": "כל הרמות",
+        "dur": "לא צוין",
+        "rating": "מדריך חינמי, פלטפורמת Termdock, ללא עלות"
       }
     }
   ]
