@@ -3,23 +3,23 @@
     {
       "title": "Master 85% of Google Gemini in 12 Minutes",
       "channel": "Jeff Su",
-      "views": 774583,
+      "views": 774794,
       "views_fmt": "775K",
       "duration": "11:50",
       "url": "https://www.youtube.com/watch?v=Uy6LcpyGj7w"
     },
     {
-      "title": "How To Master Google Gemini in 2026 (Free Course)",
-      "channel": "Paul J Lipsky",
-      "views": 443791,
-      "views_fmt": "444K",
-      "duration": "34:46",
-      "url": "https://www.youtube.com/watch?v=-_FizlRlfYs"
+      "title": "Master Gemini 3.1 for Work in 12 Minutes (2026)",
+      "channel": "Jeff Su",
+      "views": 367393,
+      "views_fmt": "367K",
+      "duration": "12:58",
+      "url": "https://www.youtube.com/watch?v=bTLmt9BKGVc"
     },
     {
       "title": "The ONLY Google Gemini Tutorial You Need! How To Use Gemini Like a Pro in 18 Minutes",
       "channel": "Charlie Chang",
-      "views": 284263,
+      "views": 284499,
       "views_fmt": "284K",
       "duration": "18:22",
       "url": "https://www.youtube.com/watch?v=KSk8SOob79Q"
@@ -29,15 +29,15 @@
     {
       "title": "ChatGPT for Beginners - 2026 Edition",
       "channel": "AI Mastermind",
-      "views": 512342,
-      "views_fmt": "512K",
+      "views": 512610,
+      "views_fmt": "513K",
       "duration": "16:31",
       "url": "https://www.youtube.com/watch?v=hOe0maWOhp8"
     },
     {
       "title": "How to Create Custom GPT | OpenAI Tutorial",
       "channel": "Kevin Stratvert",
-      "views": 484647,
+      "views": 484744,
       "views_fmt": "485K",
       "duration": "20:26",
       "url": "https://www.youtube.com/watch?v=0Q1AQAxpdGg"
@@ -45,7 +45,7 @@
     {
       "title": "ChatGPT Tutorial: 35 Tips I Wish I Knew Sooner",
       "channel": "Matt Wolfe",
-      "views": 318574,
+      "views": 318797,
       "views_fmt": "319K",
       "duration": "38:59",
       "url": "https://www.youtube.com/watch?v=WTF5qphyy8w"
@@ -53,9 +53,17 @@
   ],
   "Claude Enterprise (Anthropic)": [
     {
+      "title": "CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)",
+      "channel": "Nick Saraev",
+      "views": 2040926,
+      "views_fmt": "2.0M",
+      "duration": "4:10:43",
+      "url": "https://www.youtube.com/watch?v=QoQBzR1NIqI"
+    },
+    {
       "title": "Mastering Claude Code in 30 minutes",
       "channel": "Anthropic",
-      "views": 1465084,
+      "views": 1467398,
       "views_fmt": "1.5M",
       "duration": "28:07",
       "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0"
@@ -63,25 +71,17 @@
     {
       "title": "Claude Code - Full Tutorial for Beginners",
       "channel": "Tech With Tim",
-      "views": 1316109,
+      "views": 1321225,
       "views_fmt": "1.3M",
       "duration": "35:49",
       "url": "https://www.youtube.com/watch?v=ntDIxaeo3Wg"
-    },
-    {
-      "title": "Claude Code Tutorial for Beginners",
-      "channel": "Kevin Stratvert",
-      "views": 884485,
-      "views_fmt": "884K",
-      "duration": "14:44",
-      "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY"
     }
   ],
   "Microsoft Azure AI Foundry": [
     {
       "title": "Introducing Azure AI Foundry - Everything you need for AI development",
       "channel": "Microsoft Mechanics",
-      "views": 256696,
+      "views": 257063,
       "views_fmt": "257K",
       "duration": "12:54",
       "url": "https://www.youtube.com/watch?v=GD7MnIwAxYM"
@@ -89,15 +89,15 @@
     {
       "title": "Azure AI Foundry Overview",
       "channel": "John Savill's Technical Training",
-      "views": 141492,
-      "views_fmt": "141K",
+      "views": 141741,
+      "views_fmt": "142K",
       "duration": "1:27:35",
       "url": "https://www.youtube.com/watch?v=Sq8Cq7RZM2o"
     },
     {
       "title": "Build An AI Agent From Scratch Using Microsoft Foundry",
       "channel": "Azure Innovation Station | Azure AI Agents",
-      "views": 55867,
+      "views": 55929,
       "views_fmt": "56K",
       "duration": "13:34",
       "url": "https://www.youtube.com/watch?v=wL8H0RySf6I"
@@ -107,7 +107,7 @@
     {
       "title": "Integrating Generative AI Models with Amazon Bedrock",
       "channel": "AWS Developers",
-      "views": 496543,
+      "views": 496621,
       "views_fmt": "497K",
       "duration": "14:19",
       "url": "https://www.youtube.com/watch?v=nSQrY-uPWLY"
@@ -115,15 +115,15 @@
     {
       "title": "Amazon Bedrock AgentCore Tutorial | Build, Deploy, Operate AI Agents using AgentCore",
       "channel": "codebasics",
-      "views": 87391,
-      "views_fmt": "87K",
+      "views": 87782,
+      "views_fmt": "88K",
       "duration": "57:30",
       "url": "https://www.youtube.com/watch?v=cTBGIKAckKE"
     },
     {
       "title": "Enterprise AI Tutorial – Embeddings, RAG, and Multimodal Agents Using Amazon Nova and Bedrock",
       "channel": "freeCodeCamp.org",
-      "views": 45956,
+      "views": 45978,
       "views_fmt": "46K",
       "duration": "5:36:23",
       "url": "https://www.youtube.com/watch?v=HaUe2AN210g"

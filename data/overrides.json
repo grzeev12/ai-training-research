@@ -185,14 +185,14 @@
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-      "candidate_score": 7,
+      "candidate_score": 8,
       "new_course": {
-        "name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-        "url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
-        "desc": "מדריך מקיף לפלטפורמת הלמידה הרשמית של Anthropic. כולל 13 קורסים המכסים את יסודות Claude, פיתוח API, Claude Code, MCP, ו-Agent.",
+        "name": "AI Learning Resources & Guides from Anthropic",
+        "url": "www.anthropic.com/learn",
+        "desc": "הקורס מספק מדריכים מקיפים, טיוטות ושיטות עבודה מומלצות לעבודה עם Claude. תלמדו כיצד לנסח פקודות אפקטיביות ולמקסם את האינטראקציות עם ה-AI.",
         "level": "כל הרמות",
-        "dur": "לא צוין",
-        "rating": "מדריך חינמי, פלטפורמת Termdock, ללא עלות"
+        "dur": "זמן גישה חופשי",
+        "rating": "Anthropic, לא ידוע מספר לומדים, חינם"
       }
     }
   ]
