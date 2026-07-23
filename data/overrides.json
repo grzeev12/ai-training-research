@@ -181,21 +181,6 @@
       }
     },
     {
-      "tool_number": "03",
-      "tool_name": "Claude Enterprise (Anthropic)",
-      "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
-      "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-      "candidate_score": 8,
-      "new_course": {
-        "name": "AI Fluency: Framework and Foundations",
-        "url": "www.anthropic.com/learn/claude-for-you",
-        "desc": "הקורס עוסק במודלים המתקדמים ביותר של אנתרופיק, כולל Claude Sonnet 4.5 ו-Claude Opus 4.6. הקורס מספק הבנה מעמיקה של יכולות המודלים ואופן השימוש בהם.",
-        "level": "מתחיל",
-        "dur": "4 שבועות",
-        "rating": "פלטפורמת Anthropic, ללא עלות"
-      }
-    },
-    {
       "tool_number": "05",
       "tool_name": "Amazon Bedrock (AWS)",
       "replace_url": "www.coursera.org/professional-certificates/aws-generative-ai-developers",
@@ -208,6 +193,21 @@
         "level": "מפתחים",
         "dur": "4 שבועות",
         "rating": "Coursera, 4.6 מתוך 5, חינמי"
+      }
+    },
+    {
+      "tool_number": "03",
+      "tool_name": "Claude Enterprise (Anthropic)",
+      "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
+      "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "Anthropic Academy: All 20 Free Courses Ranked (2026)",
+        "url": "spectrumailab.com/blog/anthropic-academy-13-free-courses-ranked-2026",
+        "desc": "הקורס מדריך את הלומדים לגבי כל הקורסים החינמיים של אנתרופיק, כולל דירוגים והמלצות. הוא מספק מידע על הקורסים השונים ומסייע למשתמשים לבחור את הקורסים המתאימים להם.",
+        "level": "כל הרמות",
+        "dur": "12 דקות",
+        "rating": "בלוג, 50K+ לומדים, חינמי"
       }
     }
   ]
