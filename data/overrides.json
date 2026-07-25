@@ -200,14 +200,14 @@
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-      "candidate_score": 8,
+      "candidate_score": 7,
       "new_course": {
-        "name": "AI Learning Resources & Guides from Anthropic",
-        "url": "www.anthropic.com/learn",
-        "desc": "הקורס מציע מדריכים מקיפים, טיוטות וטכניקות עבודה עם Claude. תלמדו כיצד לנסח פקודות אפקטיביות ולמקסם את האינטראקציות עם ה-AI.",
+        "name": "Anthropic Academy: All 20 Free Courses Ranked (2026)",
+        "url": "spectrumailab.com/blog/anthropic-academy-13-free-courses-ranked-2026",
+        "desc": "הקורס מדריך את הלומדים על הקורסים החינמיים של אנתרופיק, כולל המלצות על הקורסים הטובים ביותר לכל רמה. הוא מספק תובנות על איך להתחיל עם Claude ולנצל את הפלטפורמה בצורה מיטבית.",
         "level": "כל הרמות",
-        "dur": "זמין ללא הגבלה",
-        "rating": "Anthropic Academy, אלפי לומדים, חינם"
+        "dur": "לא צוין",
+        "rating": "פלטפורמת Spectrum AI Lab, לא צוין מספר לומדים, חינמי"
       }
     }
   ]
