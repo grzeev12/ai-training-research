@@ -181,33 +181,33 @@
       }
     },
     {
-      "tool_number": "05",
-      "tool_name": "Amazon Bedrock (AWS)",
-      "replace_url": "www.coursera.org/professional-certificates/aws-generative-ai-developers",
-      "replaced_course_name": "AWS Generative AI and AI Agents with Amazon Bedrock",
-      "candidate_score": 9,
-      "new_course": {
-        "name": "Generative AI Applications with Amazon Bedrock",
-        "url": "www.coursera.org/learn/generative-ai-applications-amazon-bedrock",
-        "desc": "קורס זה מתמקד בבניית יישומי AI גנרטיביים באמצעות Amazon Bedrock. הקורס יעמיק בתכנים מתקדמים ויכולות נוספות של השירות.",
-        "level": "מפתחים",
-        "dur": "4 שבועות",
-        "rating": "Coursera, 4.6 מתוך 5, חינמי"
-      }
-    },
-    {
       "tool_number": "03",
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 7,
       "new_course": {
-        "name": "Anthropic Academy: All 20 Free Courses Ranked (2026)",
-        "url": "spectrumailab.com/blog/anthropic-academy-13-free-courses-ranked-2026",
-        "desc": "הקורס מדריך את הלומדים על הקורסים החינמיים של אנתרופיק, כולל המלצות על הקורסים הטובים ביותר לכל רמה. הוא מספק תובנות על איך להתחיל עם Claude ולנצל את הפלטפורמה בצורה מיטבית.",
+        "name": "Claude's 13 Free AI Courses in 12 Minutes",
+        "url": "www.youtube.com/watch?v=pG5Zd3sGOrY",
+        "desc": "בסרטון זה, אני מפרט את כל 13 הקורסים החינמיים של אנתרופיק אקדמי, כולל Claude 101, Claude Code, פיתוח API ועוד. זהו מדריך מצוין למי שמעוניין להבין את התוכן והמבנה של הקורסים.",
         "level": "כל הרמות",
-        "dur": "לא צוין",
-        "rating": "פלטפורמת Spectrum AI Lab, לא צוין מספר לומדים, חינמי"
+        "dur": "12 דקות",
+        "rating": "YouTube, 10K+ צפיות, חינם"
+      }
+    },
+    {
+      "tool_number": "05",
+      "tool_name": "Amazon Bedrock (AWS)",
+      "replace_url": "www.coursera.org/professional-certificates/aws-generative-ai-developers",
+      "replaced_course_name": "AWS Generative AI and AI Agents with Amazon Bedrock",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "Amazon Bedrock - Getting Started with Generative AI",
+        "url": "www.coursera.org/learn/amazon-bedrock-getting-started",
+        "desc": "בקורס זה תלמד על היתרונות של Amazon Bedrock, כיצד הוא פועל, ותשתף במקרים טיפוסיים לשימוש בו. הקורס כולל גם הסברים על השימושים השונים של Bedrock.",
+        "level": "מתחיל עד בינוני",
+        "dur": "4 שבועות",
+        "rating": "Coursera, 100K+ לומדים, חינמי"
       }
     }
   ]
