@@ -181,21 +181,6 @@
       }
     },
     {
-      "tool_number": "03",
-      "tool_name": "Claude Enterprise (Anthropic)",
-      "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
-      "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-      "candidate_score": 7,
-      "new_course": {
-        "name": "Claude's 13 Free AI Courses in 12 Minutes",
-        "url": "www.youtube.com/watch?v=pG5Zd3sGOrY",
-        "desc": "בסרטון זה, אני מפרט את כל 13 הקורסים החינמיים של אנתרופיק אקדמי, כולל Claude 101, Claude Code, פיתוח API ועוד. זהו מדריך מצוין למי שמעוניין להבין את התוכן והמבנה של הקורסים.",
-        "level": "כל הרמות",
-        "dur": "12 דקות",
-        "rating": "YouTube, 10K+ צפיות, חינם"
-      }
-    },
-    {
       "tool_number": "05",
       "tool_name": "Amazon Bedrock (AWS)",
       "replace_url": "www.coursera.org/professional-certificates/aws-generative-ai-developers",
@@ -208,6 +193,36 @@
         "level": "מתחיל עד בינוני",
         "dur": "4 שבועות",
         "rating": "Coursera, 100K+ לומדים, חינמי"
+      }
+    },
+    {
+      "tool_number": "03",
+      "tool_name": "Claude Enterprise (Anthropic)",
+      "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
+      "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
+      "candidate_score": 7,
+      "new_course": {
+        "name": "13 Free Anthropic Claude AI Courses — Here's Your Complete Roadmap",
+        "url": "medium.com/@miken.crypto/13-free-anthropic-claude-ai-courses-heres-your-complete-roadmap-c68b758ed521",
+        "desc": "הקורס הזה מדריך אותך דרך התכנים המרכזיים של Claude, זרימות עבודה מעשיות, ושיטות עבודה מומלצות לשימוש במודל בעבודות אמיתיות — ולא בדמואים פשוטים.",
+        "level": "כל הרמות",
+        "dur": "45 דקות",
+        "rating": "Medium, 50K+ learners, חינם"
+      }
+    },
+    {
+      "tool_number": "04",
+      "tool_name": "Microsoft Azure AI Foundry",
+      "replace_url": "learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps",
+      "replaced_course_name": "Develop Generative AI Apps in Microsoft Foundry",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "Artificial Intelligence on Microsoft Azure",
+        "url": "www.coursera.org/learn/artificial-intelligence-microsoft-azure",
+        "desc": "בקורס זה תלמדו את המושגים המרכזיים של אינטליגנציה מלאכותית, כולל למידת מכונה, זיהוי אנומליות, ראייה ממוחשבת, עיבוד שפה טבעית ואינטליגנציה שיחתית.",
+        "level": "בינוני",
+        "dur": "4 שבועות",
+        "rating": "Coursera, 4.5/5, חינמי לצפייה"
       }
     }
   ]
