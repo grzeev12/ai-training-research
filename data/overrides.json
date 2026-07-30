@@ -217,12 +217,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Anthropic Academy: All 20 Free Courses Ranked (2026)",
-        "url": "spectrumailab.com/blog/anthropic-academy-13-free-courses-ranked-2026",
-        "desc": "מדריך זה מספק דירוג של כל הקורסים החינמיים של אנטרופיק, כולל סטטוס תעודות, זמני השלמה וזמינות. הוא עוזר למשתמשים לבחור את הקורסים המתאימים להם לפי תפקיד.",
+        "name": "AI Learning Resources & Guides from Anthropic",
+        "url": "www.anthropic.com/learn",
+        "desc": "הקורסים מספקים מדריכים מקיפים, טיוטות, ושיטות עבודה מומלצות לעבודה עם Claude. תלמדו כיצד לנסח פקודות אפקטיביות ולמקסם את האינטראקציות עם ה-AI.",
         "level": "כל הרמות",
-        "dur": "זמן קריאה 10 דקות",
-        "rating": "בלוג, 50K+ לומדים, חינם"
+        "dur": "זמין בכל עת",
+        "rating": "פלטפורמת Anthropic, ללא עלות — גישה חופשית"
       }
     }
   ]
