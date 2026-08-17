@@ -217,12 +217,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Anthropic Built You a FREE AI Degree",
-        "url": "www.youtube.com/watch?v=q4k3OVq_XXU",
-        "desc": "הקורס הזה מציע מסלול לימודים חינמי ומסודר הכולל 18 קורסים, 300+ שיעורים ו-25+ שעות של תוכן וידאו. הוא מאושר על ידי אנתרופיק ומספק תעודות רשמיות.",
-        "level": "כל הרמות",
-        "dur": "25+ שעות",
-        "rating": "פלטפורמת YouTube, 300+ שיעורים, חינם"
+        "name": "AI Fluency: Framework and Foundations",
+        "url": "www.anthropic.com/learn/claude-for-you",
+        "desc": "הקורס עוסק במודלים החכמים והמתקדמים ביותר שלנו, Claude Sonnet 4.5 ו-Claude Opus 4.6. בנוסף, הקורס מציע מידע על Haiku 4.5, המודל המהיר ביותר שלנו לעבודה קלה.",
+        "level": "מתחיל",
+        "dur": "2 שעות",
+        "rating": "Anthropic Academy, לא ידוע מספר לומדים, חינמי"
       }
     }
   ]
