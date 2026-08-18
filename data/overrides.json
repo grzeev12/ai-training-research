@@ -219,10 +219,10 @@
       "new_course": {
         "name": "AI Fluency: Framework and Foundations",
         "url": "www.anthropic.com/learn/claude-for-you",
-        "desc": "הקורס עוסק במודלים החכמים והמתקדמים ביותר שלנו, Claude Sonnet 4.5 ו-Claude Opus 4.6. בנוסף, הקורס מציע מידע על Haiku 4.5, המודל המהיר ביותר שלנו לעבודה קלה.",
+        "desc": "הקורס עוסק במודלים החכמים והמתקדמים ביותר שלנו, כולל Claude Sonnet 4.5 ו-Claude Opus 4.6. כמו כן, הוא מציע הבנה מעמיקה של Haiku 4.5, המודל המהיר ביותר שלנו לעבודה קלה.",
         "level": "מתחיל",
-        "dur": "2 שעות",
-        "rating": "Anthropic Academy, לא ידוע מספר לומדים, חינמי"
+        "dur": "4 שבועות",
+        "rating": "פלטפורמת Anthropic, לא ידוע מספר לומדים, חינמי"
       }
     }
   ]
