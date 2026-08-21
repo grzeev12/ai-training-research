@@ -217,12 +217,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "AI Fluency: Framework and Foundations",
-        "url": "www.anthropic.com/learn/claude-for-you",
-        "desc": "הקורס עוסק במודלים החכמים והמתקדמים ביותר של Anthropic, כולל Claude Sonnet 4.5 ו-Claude Opus 4.6. הקורס מתאים לכל הרמות ומספק הבנה מעמיקה של טכנולוגיות AI מתקדמות.",
+        "name": "AI Learning Resources & Guides from Anthropic",
+        "url": "www.anthropic.com/learn",
+        "desc": "הקורס מציע מדריכים מקיפים, טיוטות ושיטות עבודה מומלצות לעבודה עם Claude. תלמדו כיצד לנסח פקודות אפקטיביות ולהפיק את המרב מהאינטראקציות עם AI.",
         "level": "כל הרמות",
-        "dur": "4 שבועות",
-        "rating": "פלטפורמת Anthropic, לא ידוע מספר לומדים, חינמי"
+        "dur": "ללא הגבלה",
+        "rating": "Anthropic Academy, ללא עלות — גישה חופשית"
       }
     }
   ]
