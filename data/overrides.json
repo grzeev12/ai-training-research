@@ -215,14 +215,14 @@
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-      "candidate_score": 7,
+      "candidate_score": 8,
       "new_course": {
-        "name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-        "url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
-        "desc": "מדריך מקיף לקורסים החינמיים של אנתרופיק, כולל 13 קורסים המכסים את הבסיסים של קלוד, פיתוח API, קוד קלוד, MCP, וסוכנויות. הקורסים מתאימים לכל הרמות ומספקים ידע מעשי בשימוש בטכנולוגיות AI.",
+        "name": "Free AI Certifications by Anthropic (Claude)",
+        "url": "medium.com/@pvprasanth474/free-ai-certifications-by-anthropic-claude-a-complete-guide-a2b94bd82a34",
+        "desc": "מדריך זה מציע סקירה של קורסים חינמיים המוצעים על ידי אנתרופיק, כולל קורסים מותאמים לסטודנטים, מחנכים ועמותות. הוא מספק מידע על קורסים שונים שניתן לגשת אליהם בחינם.",
         "level": "כל הרמות",
-        "dur": "חינמי עם תעודה",
-        "rating": "מדריך חינמי, פלטפורמת Termdock, ללא עלות"
+        "dur": "לא צוין",
+        "rating": "מקור: Medium, מספר לומדים: לא צוין, מחיר: חינם"
       }
     }
   ]
