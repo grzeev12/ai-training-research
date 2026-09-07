@@ -211,18 +211,33 @@
       }
     },
     {
+      "tool_number": "01",
+      "tool_name": "Gemini Enterprise (Google)",
+      "replace_url": "skills.google/course_templates/536",
+      "replaced_course_name": "Introduction to Generative AI",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "Google AI Essentials Specialization",
+        "url": "coursera.org/specializations/ai-essentials-google",
+        "desc": "במהלך ההתמחות ב-Google AI Essentials, תתרגלו שימוש בכלי AI שיחתי כמו ג'מיני, ותלמדו כיצד להשתמש בשפה טבעית כדי לשאול שאלות. הקורס כולל תרגולים מעשיים שיסייעו לכם לפתח מיומנויות שימושיות.",
+        "level": "מתחיל",
+        "dur": "4 שבועות",
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
+      }
+    },
+    {
       "tool_number": "03",
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-      "candidate_score": 7,
+      "candidate_score": 8,
       "new_course": {
-        "name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-        "url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
-        "desc": "המדריך כולל סקירה של כל הקורסים החינמיים של אנתרופיק, כולל הבסיסים, פיתוח API, קוד קלוד, MCP ומיומנויות סוכן. זהו מקור מצוין למי שמעוניין להתחיל ללמוד על קלוד.",
+        "name": "Claude Academy: All 22 Free Courses Ranked [2026]",
+        "url": "spectrumailab.com/blog/anthropic-academy-13-free-courses-ranked-2026",
+        "desc": "הקורס מציע דירוג של 22 קורסים חינמיים של אנטרופיק, כולל משאבים נוספים. הוא מספק מידע על הקורסים הטובים ביותר לפי תפקיד, משך הקורס וכללי הסמכה.",
         "level": "כל הרמות",
-        "dur": "חינמי",
-        "rating": "מדריך חינמי, פלטפורמת Termdock, ללא עלות"
+        "dur": "355 משאבים חינמיים",
+        "rating": "מקור מכובד, 50K+ לומדים, חינמי"
       }
     }
   ]
