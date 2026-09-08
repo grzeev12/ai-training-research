@@ -226,18 +226,33 @@
       }
     },
     {
+      "tool_number": "01",
+      "tool_name": "Gemini Enterprise (Google)",
+      "replace_url": "cloud.google.com/learn/training/machinelearning-ai",
+      "replaced_course_name": "Google Cloud ML & AI Training Hub",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "Google AI Professional Certificate",
+        "url": "www.coursera.org/professional-certificates/google-ai",
+        "desc": "קורס זה מציע הכשרה מעמיקה על מודלים מתקדמים של AI של Google, כולל Gemini. הוא כולל פרויקטים מעשיים שמאפשרים לסטודנטים לפתח מיומנויות שימושיות בעולם האמיתי.",
+        "level": "כל הרמות",
+        "dur": "3 חודשים",
+        "rating": "Coursera, 500K+ לומדים, חינמי לאודיט"
+      }
+    },
+    {
       "tool_number": "03",
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy: All 22 Free Courses Ranked [2026]",
-        "url": "spectrumailab.com/blog/anthropic-academy-13-free-courses-ranked-2026",
-        "desc": "הקורס מציע דירוג של 22 קורסים חינמיים של אנטרופיק, כולל משאבים נוספים. הוא מספק מידע על הקורסים הטובים ביותר לפי תפקיד, משך הקורס וכללי הסמכה.",
+        "name": "Free AI Certifications by Anthropic (Claude)",
+        "url": "medium.com/@pvprasanth474/free-ai-certifications-by-anthropic-claude-a-complete-guide-a2b94bd82a34",
+        "desc": "הקורסים החינמיים של Anthropic מציעים הכשרה מקיפה על מיומנויות בינה מלאכותית, כולל Claude 101 ו-AI Fluency. הקורסים מתאימים לכל הרמות ומספקים תעודות סיום.",
         "level": "כל הרמות",
-        "dur": "355 משאבים חינמיים",
-        "rating": "מקור מכובד, 50K+ לומדים, חינמי"
+        "dur": "לא צוין",
+        "rating": "מדיום, 50K+ לומדים, חינם"
       }
     }
   ]
