@@ -241,18 +241,33 @@
       }
     },
     {
+      "tool_number": "01",
+      "tool_name": "Gemini Enterprise (Google)",
+      "replace_url": "www.coursera.org/professional-certificates/google-ai",
+      "replaced_course_name": "Google AI Professional Certificate",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "Google AI Essentials Specialization",
+        "url": "www.coursera.org/specializations/ai-essentials-google",
+        "desc": "בקורס זה תתרגלו שימוש בכלי AI שיחתי כמו ג'מיני, ותלמדו כיצד לשאול שאלות בשפה טבעית. הקורס כולל תכנים מעשיים וממוקדים בתחום ה-AI.",
+        "level": "מתחיל",
+        "dur": "4 שבועות",
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
+      }
+    },
+    {
       "tool_number": "03",
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
-      "candidate_score": 8,
+      "candidate_score": 7,
       "new_course": {
-        "name": "Beginner Roadmap for Anthropic's Free Courses",
+        "name": "Beginner roadmap for Anthropic's free courses",
         "url": "www.reddit.com/r/learnmachinelearning/comments/1sc6wwv/beginner_roadmap_for_anthropics_free_courses/",
-        "desc": "הקורס מציע מסלול למתחילים ללמידה על קורסי אנטרופיק החינמיים. הוא מסביר את הסדר הטוב ביותר ללמידה ומספק טיפים שימושיים.",
+        "desc": "הקורס מציע מסלול למתחילים ללמידה על קורסי AI החינמיים של Anthropic. הוא מסביר את הסדר הטוב ביותר ללמידה ומספק טיפים שימושיים להצלחה.",
         "level": "מתחיל",
         "dur": "לא צוין",
-        "rating": "פלטפורמת Reddit, לא ידוע מספר לומדים, חינם"
+        "rating": "מקור: Reddit, לא ידוע מספר לומדים, חינמי"
       }
     }
   ]
