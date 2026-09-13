@@ -247,12 +247,12 @@
       "replaced_course_name": "Google AI Professional Certificate",
       "candidate_score": 9,
       "new_course": {
-        "name": "Google AI Essentials Specialization",
-        "url": "www.coursera.org/specializations/ai-essentials-google",
-        "desc": "הקורס מספק הכשרה עצמאית לאנשים מכל התחומים כדי לרכוש מיומנויות בינה מלאכותית שיגבירו את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
-        "level": "מתחיל",
-        "dur": "4 חודשים",
-        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
+        "name": "Deep Learning Specialization",
+        "url": "www.deeplearning.ai/specializations/deep-learning",
+        "desc": "הקורס מתמקד בהבנת היסודות של למידת מכונה ולמידה עמוקה. הוא כולל פרויקטים מעשיים שיכולים לעזור לך לפתח את הכישורים שלך בתחום ה-AI.",
+        "level": "בינוני",
+        "dur": "3 חודשים",
+        "rating": "DeepLearning.AI, 1M+ לומדים, חינמי לאודיט"
       }
     },
     {
@@ -262,12 +262,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy",
-        "url": "academy.claude.com",
-        "desc": "הצטרפו לקורסים חינמיים, מדריכים ומקרי שימוש מהצוות החינוכי של Anthropic. הקורסים מלמדים כיצד להשתמש בבינה מלאכותית בצורה בטוחה, יעילה ומכוונת.",
+        "name": "Claude Academy · Learn to work and build with Claude",
+        "url": "academy.claude.com/",
+        "desc": "הצטרפו לאקדמיה של קלוד ולמדו להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים מדריכים, תרגולים ומקרי שימוש מהצוות החינוכי של Anthropic.",
         "level": "כל הרמות",
-        "dur": "זמין לפי בחירה",
-        "rating": "Anthropic Academy, 50K+ לומדים, חינם"
+        "dur": "חינמי עם תעודה",
+        "rating": "Anthropic Academy, מספר לומדים לא ידוע, חינם"
       }
     }
   ]
