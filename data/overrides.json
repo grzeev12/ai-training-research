@@ -247,12 +247,12 @@
       "replaced_course_name": "Google AI Professional Certificate",
       "candidate_score": 9,
       "new_course": {
-        "name": "Deep Learning Specialization",
-        "url": "www.deeplearning.ai/specializations/deep-learning",
-        "desc": "הקורס מתמקד בהבנת היסודות של למידת מכונה ולמידה עמוקה. הוא כולל פרויקטים מעשיים שיכולים לעזור לך לפתח את הכישורים שלך בתחום ה-AI.",
-        "level": "בינוני",
-        "dur": "3 חודשים",
-        "rating": "DeepLearning.AI, 1M+ לומדים, חינמי לאודיט"
+        "name": "Google AI Essentials Specialization",
+        "url": "coursera.org/specializations/ai-essentials-google",
+        "desc": "Google AI Essentials הוא תוכנית עצמאית שנועדה לעזור לאנשים בתפקידים ובתעשיות שונות לרכוש מיומנויות בינה מלאכותית כדי לשפר את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
+        "level": "מתחיל",
+        "dur": "4 שבועות",
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
       }
     },
     {
@@ -262,12 +262,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy: 22 Free AI Courses",
-        "url": "bitbiased.ai/a",
-        "desc": "הצטרפו לאקדמיה של קלוד ולמדו להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים מכסים מגוון רחב של נושאים, כולל פיתוח מיומנויות בינה מלאכותית ושימושים מעשיים.",
-        "level": "כל הרמות",
-        "dur": "חינמי עם תעודה",
-        "rating": "פלטפורמת Anthropic, 50K+ לומדים, חינמי"
+        "name": "Anthropic Courses",
+        "url": "anthropic.skilljar.com",
+        "desc": "הקורס הזה מציע למידה מעשית על איך לעבוד עם Claude על קבצים ופרויקטים אמיתיים. הוא מכסה את לולאת המשימות Cowork, תוספים ומיומנויות, קבצים ומחקר.",
+        "level": "מפתחים",
+        "dur": "4 שבועות",
+        "rating": "Anthropic Academy, 50K+ לומדים, חינמי"
       }
     }
   ]
