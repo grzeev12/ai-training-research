@@ -245,14 +245,14 @@
       "tool_name": "Gemini Enterprise (Google)",
       "replace_url": "www.coursera.org/professional-certificates/google-ai",
       "replaced_course_name": "Google AI Professional Certificate",
-      "candidate_score": 9,
+      "candidate_score": 7,
       "new_course": {
-        "name": "Google AI Essentials Specialization",
-        "url": "www.coursera.org/specializations/ai-essentials-google",
-        "desc": "קורס זה הוא תוכנית עצמאית שנועדה לעזור לאנשים בתפקידים ובתעשיות שונות לרכוש מיומנויות בינה מלאכותית כדי לשפר את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
+        "name": "AI Training to Grow Your Career",
+        "url": "grow.google/ai?srsltid=AU7gw4VgXERcFMxz4sabtSN6aWzMUeIsE0qB6FY_8KWN9sgUBNeSbhI7",
+        "desc": "הקורס מציע סדנאות ללא עלות, כמו Generative AI for Educators עם Gemini, ומסביר כיצד להשתמש בכלים של AI כדי לשפר את הפרודוקטיביות בעסקים ובחינוך.",
         "level": "מתחיל",
-        "dur": "4 שבועות",
-        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
+        "dur": "זמן גמיש",
+        "rating": "Google, ללא עלות — סדנאות חינמיות"
       }
     },
     {
@@ -262,12 +262,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Anthropic Academy Free AI Degree",
-        "url": "www.youtube.com/watch?v=q4k3OVq_XXU",
-        "desc": "הקורס הזה מציע תכנית לימודים חינמית עם 18 קורסים מובנים, מעל 300 שיעורים ו-25+ שעות של תוכן וידאו. כל הקורסים כוללים תעודות סיום.",
+        "name": "Claude Academy: 22 Free AI Courses",
+        "url": "bitbiased.ai/a...",
+        "desc": "הקורסים ב-Claude Academy מכסים מגוון רחב של נושאים הקשורים ל-AI, כולל שימוש בטוח ויעיל ב-Claude. הקורסים מיועדים לכל הרמות ומספקים תעודות סיום רשמיות.",
         "level": "כל הרמות",
-        "dur": "25+ שעות",
-        "rating": "YouTube, 50K+ צופים, חינם"
+        "dur": "8+ שעות",
+        "rating": "פלטפורמת Anthropic, 50K+ לומדים, חינמי עם תעודה"
       }
     }
   ]
