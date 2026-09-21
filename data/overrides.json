@@ -245,14 +245,14 @@
       "tool_name": "Gemini Enterprise (Google)",
       "replace_url": "www.coursera.org/professional-certificates/google-ai",
       "replaced_course_name": "Google AI Professional Certificate",
-      "candidate_score": 7,
+      "candidate_score": 9,
       "new_course": {
-        "name": "AI Training to Grow Your Career",
-        "url": "grow.google/ai?srsltid=AU7gw4VgXERcFMxz4sabtSN6aWzMUeIsE0qB6FY_8KWN9sgUBNeSbhI7",
-        "desc": "הקורס מציע סדנאות ללא עלות, כמו Generative AI for Educators עם Gemini, ומסביר כיצד להשתמש בכלים של AI כדי לשפר את הפרודוקטיביות בעסקים ובחינוך.",
+        "name": "Google AI Essentials Specialization",
+        "url": "www.coursera.org/specializations/ai-essentials-google",
+        "desc": "הקורס מספק הכשרה מקיפה בתחום הבינה המלאכותית, ומיועד לכל מי שמעוניין לשפר את הכישורים שלו בתחום זה. אין צורך בניסיון קודם.",
         "level": "מתחיל",
-        "dur": "זמן גמיש",
-        "rating": "Google, ללא עלות — סדנאות חינמיות"
+        "dur": "4 שבועות",
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
       }
     },
     {
@@ -262,12 +262,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "20 Free Claude Courses & Certification (2026)",
-        "url": "fast.io/resources/claude-ai-courses-guide/",
-        "desc": "מדריך לקורסים החינמיים של אנתרופיק, כולל 20 קורסים שונים, בחינות הסמכה, ודרכי למידה חינמיות לכל הרמות. הקורסים מיועדים למי שמעוניין לפתח מיומנויות בעבודה עם Claude.",
+        "name": "Claude Academy",
+        "url": "academy.claude.com",
+        "desc": "הצטרפו לאקדמיה של קלוד ולמדו כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים, מדריכים ומקרי שימוש מהצוות החינוכי של אנתרופיק.",
         "level": "כל הרמות",
-        "dur": "לא צוין",
-        "rating": "פלטפורמת Fast.io, מספר לומדים לא צוין, חינם"
+        "dur": "חינמי עם תעודה",
+        "rating": "אקדמיה של אנתרופיק, קורסים חינמיים, תעודה רשמית"
       }
     }
   ]
