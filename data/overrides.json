@@ -247,12 +247,12 @@
       "replaced_course_name": "Google AI Professional Certificate",
       "candidate_score": 9,
       "new_course": {
-        "name": "Google AI Professional Certificate",
-        "url": "www.coursera.org/professional-certificates/google-ai",
-        "desc": "הקורס מספק הבנה מעמיקה של בינה מלאכותית ומיועד למי שמעוניין לפתח את כישוריו בתחום. הקורס כולל תכנים מעשיים ומיועד לכל הרמות.",
-        "level": "כל הרמות",
-        "dur": "6 חודשים",
-        "rating": "Coursera, 500K+ לומדים, חינמי לאודיט"
+        "name": "Google AI Essentials Specialization",
+        "url": "www.coursera.org/specializations/ai-essentials-google",
+        "desc": "הקורס עוסק במיומנויות AI שיכולות לשפר את הפרודוקטיביות של אנשים בתפקידים ובתעשיות שונות. אין צורך בניסיון קודם.",
+        "level": "מתחיל",
+        "dur": "4 חודשים",
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
       }
     },
     {
@@ -262,12 +262,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy",
-        "url": "academy.claude.com",
-        "desc": "הצטרפו לאקדמיה של קלוד ולמדו כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים, הדרכות ומקרי שימוש שנועדו לסייע לכם לפתח את המיומנויות הנדרשות.",
-        "level": "כל הרמות",
-        "dur": "זמין ללא הגבלה",
-        "rating": "אקדמיה של אנתרופיק, גישה חינמית, תעודות זמינות"
+        "name": "Anthropic Courses",
+        "url": "anthropic.skilljar.com",
+        "desc": "הקורס הזה מכסה את השימוש ב-Claude בפרויקטים אמיתיים, כולל עבודה עם קבצים, תוספים ומיומנויות. הוא מציע גישה מעשית ללמידה על Claude.",
+        "level": "מפתחים",
+        "dur": "8 שעות",
+        "rating": "Anthropic Academy, 50K+ לומדים, חינם"
       }
     }
   ]
