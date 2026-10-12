@@ -247,12 +247,12 @@
       "replaced_course_name": "Google AI Professional Certificate",
       "candidate_score": 9,
       "new_course": {
-        "name": "Google AI Essentials Specialization",
-        "url": "www.coursera.org/specializations/ai-essentials-google",
-        "desc": "קורס זה הוא תוכנית עצמאית שנועדה לעזור לאנשים בתפקידים ובתעשיות שונות לרכוש מיומנויות בינה מלאכותית כדי לשפר את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
-        "level": "מתחיל",
+        "name": "AI for Research and Insights",
+        "url": "www.coursera.org/learn/google-ai-for-research-and-insights",
+        "desc": "בקורס זה, תלמד כיצד להפוך את הבינה המלאכותית לשותף אסטרטגי במחקר שלך. הקורס מציע כלים וטכניקות מתקדמות להבנת נושאים מורכבים במהירות.",
+        "level": "בינוני",
         "dur": "4 שבועות",
-        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
+        "rating": "Coursera, 100K+ לומדים, חינמי לאודיט"
       }
     },
     {
@@ -264,10 +264,10 @@
       "new_course": {
         "name": "Claude Academy",
         "url": "academy.claude.com",
-        "desc": "הצטרפו לקורסים חינמיים, מדריכים ומקרי שימוש מהצוות החינוכי של Anthropic. הקורסים מלמדים כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה.",
+        "desc": "הצטרפו לאקדמיה של Claude ולמדו להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים מגוונים, מדריכים ומקרי שימוש מהצוות החינוכי של Anthropic.",
         "level": "כל הרמות",
-        "dur": "31 קורסים",
-        "rating": "פלטפורמת Anthropic, 50K+ לומדים, חינם"
+        "dur": "קורסים חינמיים",
+        "rating": "פלטפורמת Anthropic, מספר לומדים לא ידוע, חינם"
       }
     }
   ]
