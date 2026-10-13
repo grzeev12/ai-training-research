@@ -3,24 +3,24 @@
     {
       "title": "How To Master Google Gemini in 2026 (Free Course)",
       "channel": "Paul J Lipsky",
-      "views": 633510,
-      "views_fmt": "634K",
+      "views": 635245,
+      "views_fmt": "635K",
       "duration": "34:46",
       "url": "https://www.youtube.com/watch?v=-_FizlRlfYs"
     },
     {
       "title": "How to Use Google Gemini Al (Full Tutorial)",
       "channel": "Kevin Stratvert",
-      "views": 333962,
-      "views_fmt": "334K",
+      "views": 335839,
+      "views_fmt": "336K",
       "duration": "10:03",
       "url": "https://www.youtube.com/watch?v=PDMcpthR88U"
     },
     {
       "title": "The ONLY Google Gemini Tutorial You Need! How To Use Gemini Like a Pro in 18 Minutes",
       "channel": "Charlie Chang",
-      "views": 317163,
-      "views_fmt": "317K",
+      "views": 317555,
+      "views_fmt": "318K",
       "duration": "18:22",
       "url": "https://www.youtube.com/watch?v=KSk8SOob79Q"
     }
@@ -29,7 +29,7 @@
     {
       "title": "ChatGPT Tutorial: How to Use Chat GPT For Beginners",
       "channel": "Charlie Chang",
-      "views": 4953427,
+      "views": 4955467,
       "views_fmt": "5.0M",
       "duration": "27:51",
       "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc"
@@ -37,25 +37,33 @@
     {
       "title": "ChatGPT for Beginners - 2026 Edition",
       "channel": "AI Mastermind",
-      "views": 584825,
-      "views_fmt": "585K",
+      "views": 585712,
+      "views_fmt": "586K",
       "duration": "16:31",
       "url": "https://www.youtube.com/watch?v=hOe0maWOhp8"
     },
     {
       "title": "Learn 95% of ChatGPT Work in Under 20 Minutes",
       "channel": "Jeff Su",
-      "views": 394522,
-      "views_fmt": "395K",
+      "views": 400679,
+      "views_fmt": "401K",
       "duration": "19:35",
       "url": "https://www.youtube.com/watch?v=KmcTu2EigTs"
     }
   ],
   "Claude Enterprise (Anthropic)": [
     {
+      "title": "CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)",
+      "channel": "Nick Saraev",
+      "views": 2661589,
+      "views_fmt": "2.7M",
+      "duration": "4:10:43",
+      "url": "https://www.youtube.com/watch?v=QoQBzR1NIqI"
+    },
+    {
       "title": "Claude Code - Full Tutorial for Beginners",
       "channel": "Tech With Tim",
-      "views": 1801765,
+      "views": 1807744,
       "views_fmt": "1.8M",
       "duration": "35:49",
       "url": "https://www.youtube.com/watch?v=ntDIxaeo3Wg"
@@ -63,33 +71,25 @@
     {
       "title": "The Ultimate Beginner’s Guide to Claude AI",
       "channel": "Metics Media",
-      "views": 1398250,
+      "views": 1427680,
       "views_fmt": "1.4M",
       "duration": "1:00:49",
       "url": "https://www.youtube.com/watch?v=9oJySubZRSA"
-    },
-    {
-      "title": "FULL Claude Tutorial For Beginners in 2026! (FULL COURSE)",
-      "channel": "Productive Dude",
-      "views": 1086994,
-      "views_fmt": "1.1M",
-      "duration": "1:52:38",
-      "url": "https://www.youtube.com/watch?v=Xg55nTrbYYY"
     }
   ],
   "Microsoft Azure AI Foundry": [
     {
       "title": "Introducing Azure AI Foundry - Everything you need for AI development",
       "channel": "Microsoft Mechanics",
-      "views": 294068,
-      "views_fmt": "294K",
+      "views": 294544,
+      "views_fmt": "295K",
       "duration": "12:54",
       "url": "https://www.youtube.com/watch?v=GD7MnIwAxYM"
     },
     {
       "title": "Microsoft Foundry - AI app & agent factory",
       "channel": "Microsoft Mechanics",
-      "views": 188658,
+      "views": 189039,
       "views_fmt": "189K",
       "duration": "12:08",
       "url": "https://www.youtube.com/watch?v=C6rxEGJay70"
@@ -97,7 +97,7 @@
     {
       "title": "Azure AI Foundry Overview",
       "channel": "John Savill's Technical Training",
-      "views": 161521,
+      "views": 161755,
       "views_fmt": "162K",
       "duration": "1:27:35",
       "url": "https://www.youtube.com/watch?v=Sq8Cq7RZM2o"
@@ -107,23 +107,23 @@
     {
       "title": "Amazon Bedrock AgentCore Tutorial | Build, Deploy, Operate AI Agents using AgentCore",
       "channel": "codebasics",
-      "views": 137366,
-      "views_fmt": "137K",
+      "views": 138026,
+      "views_fmt": "138K",
       "duration": "57:30",
       "url": "https://www.youtube.com/watch?v=cTBGIKAckKE"
     },
     {
       "title": "Amazon Bedrock for Beginners – From First Prompt to AI Agent (Full Tutorial)",
       "channel": "AWS Developers and Morgan Willis",
-      "views": 69369,
-      "views_fmt": "69K",
+      "views": 69795,
+      "views_fmt": "70K",
       "duration": "44:41",
       "url": "https://www.youtube.com/watch?v=FAgmR9VV0GQ"
     },
     {
       "title": "Deploy ANY AI Agent to Production in Minutes | Amazon Bedrock AgentCore Tutorial",
       "channel": "AWS Developers",
-      "views": 49881,
+      "views": 50101,
       "views_fmt": "50K",
       "duration": "15:56",
       "url": "https://www.youtube.com/watch?v=N7FGbBq1mI4"
