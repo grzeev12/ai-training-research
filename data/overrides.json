@@ -245,14 +245,14 @@
       "tool_name": "Gemini Enterprise (Google)",
       "replace_url": "www.coursera.org/professional-certificates/google-ai",
       "replaced_course_name": "Google AI Professional Certificate",
-      "candidate_score": 9,
+      "candidate_score": 8,
       "new_course": {
-        "name": "AI for Research and Insights",
-        "url": "www.coursera.org/learn/google-ai-for-research-and-insights",
-        "desc": "בקורס זה, תלמד כיצד להפוך את הבינה המלאכותית לשותף אסטרטגי במחקר שלך. הקורס מציע כלים וטכניקות מתקדמות להבנת נושאים מורכבים במהירות.",
-        "level": "בינוני",
+        "name": "Google Workspace with Gemini Specialization",
+        "url": "www.coursera.org/specializations/gemini-for-google-workspace",
+        "desc": "קורס זה מציג למשתמשים את תכונות ה-AI הגנרטיבי של Google Workspace עם Gemini. הוא כולל מצגות ותרגולים מעשיים כדי לשפר את הידע והכישורים של המשתמשים.",
+        "level": "מתחיל עד בינוני",
         "dur": "4 שבועות",
-        "rating": "Coursera, 100K+ לומדים, חינמי לאודיט"
+        "rating": "Coursera, 50K+ לומדים, חינמי לאודיט"
       }
     },
     {
@@ -264,10 +264,10 @@
       "new_course": {
         "name": "Claude Academy",
         "url": "academy.claude.com",
-        "desc": "בClaude Academy תוכל ללמוד כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים וההדרכות חינמיים ומיועדים לכל הרמות.",
+        "desc": "הצטרפו לאקדמיה של Claude ולמדו כיצד להשתמש בבינה מלאכותית בצורה בטוחה, אפקטיבית ומכוונת. הקורסים כוללים תכנים מגוונים, מדריכים ומקרי שימוש מהצוות החינוכי של Anthropic.",
         "level": "כל הרמות",
-        "dur": "גמיש",
-        "rating": "פלטפורמת Anthropic, קורסים חינמיים, ללא עלות"
+        "dur": "מגוון קורסים",
+        "rating": "חינמי, פלטפורמת Anthropic, קורסים רבים"
       }
     }
   ]
