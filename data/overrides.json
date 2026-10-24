@@ -245,14 +245,14 @@
       "tool_name": "Gemini Enterprise (Google)",
       "replace_url": "www.coursera.org/professional-certificates/google-ai",
       "replaced_course_name": "Google AI Professional Certificate",
-      "candidate_score": 7,
+      "candidate_score": 9,
       "new_course": {
-        "name": "AI for Research and Insights",
-        "url": "www.coursera.org/learn/google-ai-for-research-and-insights",
-        "desc": "בקורס זה, תלמד כיצד להפוך את הבינה המלאכותית לשותף אסטרטגי במחקר שלך. הקורס מתמקד בנושאים מורכבים ונותן כלים ליישום AI במחקר.",
-        "level": "בינוני",
+        "name": "Google AI Essentials Specialization",
+        "url": "www.coursera.org/specializations/ai-essentials-google",
+        "desc": "קורס זה מיועד לעזור לאנשים בכל התפקידים והתחומים לרכוש מיומנויות בינה מלאכותית כדי לשפר את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
+        "level": "מתחיל",
         "dur": "4 שבועות",
-        "rating": "Coursera, 100K+ לומדים, חינמי לאודיט"
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
       }
     },
     {
@@ -264,10 +264,10 @@
       "new_course": {
         "name": "Claude Academy",
         "url": "academy.claude.com",
-        "desc": "הצטרף לאקדמיה של Claude ולמד כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים מגוונים, מדריכים ומקרי שימוש מהצוות החינוכי של Anthropic.",
+        "desc": "הצטרף לאקדמיה של Claude ולמד כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים מדריכים, תרגולים ומקרי שימוש מהצוות החינוכי של Anthropic.",
         "level": "כל הרמות",
-        "dur": "קורסים חינמיים ללא הגבלה",
-        "rating": "Anthropic Academy, 50K+ לומדים, חינם"
+        "dur": "זמין ללא הגבלה",
+        "rating": "חינמי, פלטפורמת Anthropic, קורסים רבים"
       }
     }
   ]
