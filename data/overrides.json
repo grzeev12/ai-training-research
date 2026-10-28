@@ -256,6 +256,21 @@
       }
     },
     {
+      "tool_number": "02",
+      "tool_name": "ChatGPT Enterprise (OpenAI)",
+      "replace_url": "deeplearning.ai/short-courses/how-business-thinkers-can-start-building-with-the-chatgpt-api/",
+      "replaced_course_name": "How Business Thinkers Can Build with the ChatGPT API",
+      "candidate_score": 9,
+      "new_course": {
+        "name": "OpenAI Developer Prompting Course",
+        "url": "pasqualepillitteri.it/en/news/13907/free-ai-courses-openai-google",
+        "desc": "הקורס מתמקד בהבנת עקרונות הפיתוח של ChatGPT ובשיטות להנחות את המודל בצורה אפקטיבית. הוא מיועד למפתחים המעוניינים לשפר את כישורי הפיתוח שלהם עם AI.",
+        "level": "מפתחים",
+        "dur": "4 שבועות",
+        "rating": "OpenAI Academy, 14 קורסים חינמיים, חינם"
+      }
+    },
+    {
       "tool_number": "03",
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
@@ -264,10 +279,10 @@
       "new_course": {
         "name": "Claude Academy",
         "url": "academy.claude.com",
-        "desc": "הצטרפו לאקדמיה של קלוד ולמדו כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים, מדריכים ומקרי שימוש מהצוות החינוכי של Anthropic.",
+        "desc": "הצטרף לאקדמיה של קלוד ולמד כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים, הדרכות ומקרי שימוש מהצוות החינוכי של אנטרופיק.",
         "level": "כל הרמות",
-        "dur": "חינמי",
-        "rating": "פלטפורמת Anthropic, מספר לומדים לא ידוע, חינם"
+        "dur": "זמין בכל עת",
+        "rating": "פלטפורמת אנטרופיק, קורסים חינמיים, תעודות זמינות"
       }
     }
   ]
