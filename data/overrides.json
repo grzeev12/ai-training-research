@@ -271,6 +271,21 @@
       }
     },
     {
+      "tool_number": "02",
+      "tool_name": "ChatGPT Enterprise (OpenAI)",
+      "replace_url": "pasqualepillitteri.it/en/news/13907/free-ai-courses-openai-google",
+      "replaced_course_name": "OpenAI Developer Prompting Course",
+      "candidate_score": 8,
+      "new_course": {
+        "name": "Best ChatGPT Courses & Certificates",
+        "url": "www.coursera.org/courses?query=chatgpt",
+        "desc": "הקורסים ב-Coursera עוסקים בעקרונות של AI שיחתי, טכניקות עיבוד שפה טבעית ואסטרטגיות הנדסת פקודות. הקורסים מתאימים לכל הרמות ומספקים ידע מעשי.",
+        "level": "כל הרמות",
+        "dur": "מגוון קורסים באורכים שונים",
+        "rating": "Coursera, 500K+ לומדים, חינם"
+      }
+    },
+    {
       "tool_number": "03",
       "tool_name": "Claude Enterprise (Anthropic)",
       "replace_url": "www.termdock.com/en/blog/anthropic-academy-claude-courses-guide",
@@ -279,10 +294,10 @@
       "new_course": {
         "name": "Claude Academy",
         "url": "academy.claude.com",
-        "desc": "הצטרף לאקדמיה של קלוד ולמד כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים, הדרכות ומקרי שימוש מהצוות החינוכי של אנטרופיק.",
+        "desc": "הצטרפו לאקדמיה של Claude ולמדו כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תרגולים, מקרים שימושיים והדרכות מהצוות החינוכי של Anthropic.",
         "level": "כל הרמות",
-        "dur": "זמין בכל עת",
-        "rating": "פלטפורמת אנטרופיק, קורסים חינמיים, תעודות זמינות"
+        "dur": "50+ שעות",
+        "rating": "פלטפורמת Anthropic, 425 לקציות, חינמי"
       }
     }
   ]
