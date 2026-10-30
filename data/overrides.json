@@ -277,12 +277,12 @@
       "replaced_course_name": "OpenAI Developer Prompting Course",
       "candidate_score": 8,
       "new_course": {
-        "name": "Best ChatGPT Courses & Certificates",
-        "url": "www.coursera.org/courses?query=chatgpt",
-        "desc": "הקורסים ב-Coursera עוסקים בעקרונות של AI שיחתי, טכניקות עיבוד שפה טבעית ואסטרטגיות הנדסת פקודות. הקורסים מתאימים לכל הרמות ומספקים ידע מעשי.",
-        "level": "כל הרמות",
-        "dur": "מגוון קורסים באורכים שונים",
-        "rating": "Coursera, 500K+ לומדים, חינם"
+        "name": "Generative AI with LLM",
+        "url": "www.google.com/goto?url=CAESrAEB6zswFe328XG35YTR6LCNp6bZBcO6D3B7rowHR28LQALbGyIhna3s9eTgORyt3lpkgI4i-Mea6ewEuodcjoPC0P2A5cXhgIr4V_15MSXQxRt44DTR5Mkqd734NKN8oyPxXQZAy_-D5G-7HTAOOuXoDyCmhNQKK_PtEaSW6Nos7m_f2O2uHgkkBSigqyLwrUCffx20vu19gJQd-31V-UpvzcZ7lAg-d5_-SfeQ",
+        "desc": "הקורס 'Generative AI with LLM' מספק תובנות מעמיקות על הנדסת פקודות, PEFT ועד RLHF. הוא מיועד למי שמעוניין להבין את היישומים המתקדמים של אינטליגנציה מלאכותית.",
+        "level": "מפתחים",
+        "dur": "4 שבועות",
+        "rating": "DeepLearning.AI, 500K+ לומדים, חינם"
       }
     },
     {
@@ -292,12 +292,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy",
-        "url": "academy.claude.com",
-        "desc": "הצטרפו לאקדמיה של Claude ולמדו כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תרגולים, מקרים שימושיים והדרכות מהצוות החינוכי של Anthropic.",
+        "name": "Claude Academy · Learn to work and build with Claude",
+        "url": "academy.claude.com/",
+        "desc": "הקורסים ב-Claude Academy מלמדים כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים, מדריכים ומקרי שימוש מהצוות החינוכי של Anthropic.",
         "level": "כל הרמות",
         "dur": "50+ שעות",
-        "rating": "פלטפורמת Anthropic, 425 לקציות, חינמי"
+        "rating": "חינמי, כולל תעודות, פלטפורמת Anthropic"
       }
     }
   ]
