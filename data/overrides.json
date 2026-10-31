@@ -277,12 +277,12 @@
       "replaced_course_name": "OpenAI Developer Prompting Course",
       "candidate_score": 8,
       "new_course": {
-        "name": "Generative AI with LLM",
-        "url": "www.google.com/goto?url=CAESrAEB6zswFe328XG35YTR6LCNp6bZBcO6D3B7rowHR28LQALbGyIhna3s9eTgORyt3lpkgI4i-Mea6ewEuodcjoPC0P2A5cXhgIr4V_15MSXQxRt44DTR5Mkqd734NKN8oyPxXQZAy_-D5G-7HTAOOuXoDyCmhNQKK_PtEaSW6Nos7m_f2O2uHgkkBSigqyLwrUCffx20vu19gJQd-31V-UpvzcZ7lAg-d5_-SfeQ",
-        "desc": "הקורס 'Generative AI with LLM' מספק תובנות מעמיקות על הנדסת פקודות, PEFT ועד RLHF. הוא מיועד למי שמעוניין להבין את היישומים המתקדמים של אינטליגנציה מלאכותית.",
-        "level": "מפתחים",
-        "dur": "4 שבועות",
-        "rating": "DeepLearning.AI, 500K+ לומדים, חינם"
+        "name": "ChatGPT: Master Free AI Tools to Supercharge Productivity",
+        "url": "www.coursera.org/learn/chatgpt-master-free-ai-tools",
+        "desc": "הקורס מלמד כיצד להשתמש בכלים חינמיים של AI כדי לשפר את הפרודוקטיביות בעבודה ובחיים האישיים. הוא כולל טכניקות לניהול זמן, אוטומציה של משימות ושימוש ב-ChatGPT ליצירת תוכן.",
+        "level": "מתחיל",
+        "dur": "3 - 6 חודשים",
+        "rating": "4.8 כוכבים, 9.5K ביקורות, חינם"
       }
     },
     {
@@ -292,12 +292,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy · Learn to work and build with Claude",
-        "url": "academy.claude.com/",
-        "desc": "הקורסים ב-Claude Academy מלמדים כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים, מדריכים ומקרי שימוש מהצוות החינוכי של Anthropic.",
+        "name": "Claude Academy: What Anthropic's 22 Free AI Courses Are",
+        "url": "www.google.com/goto?url=CAESZgHrOzAVdAUxy7DQI-f02pfKeuUADEhlDr1zSJUN7Gf1c-K_jt7YmonTCZTu-rEuj2fFq_b1txqcogctjoOuWAoh3jw71mli8B_6q0nVLpwCocuzAbZrK6SsDJ8h2oEsau9FF6shkA",
+        "desc": "הקורס מציע 22 קורסים חינמיים על Claude, Claude Code, והבנה של בינה מלאכותית. הוא מיועד למי שמעוניין להעמיק את הידע שלו בתחום הבינה המלאכותית.",
         "level": "כל הרמות",
-        "dur": "50+ שעות",
-        "rating": "חינמי, כולל תעודות, פלטפורמת Anthropic"
+        "dur": "לא צוין",
+        "rating": "Anthropic Academy, 50K+ לומדים, חינם"
       }
     }
   ]
