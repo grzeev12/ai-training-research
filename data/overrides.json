@@ -264,9 +264,9 @@
       "new_course": {
         "name": "Google AI Essentials Specialization",
         "url": "www.coursera.org/specializations/ai-essentials-google",
-        "desc": "קורס זה עוזר לאנשים מכל התחומים לרכוש מיומנויות בינה מלאכותית כדי לשפר את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
+        "desc": "קורס זה מיועד לעזור לאנשים בכל התפקידים והתחומים לרכוש מיומנויות בינה מלאכותית כדי לשפר את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
         "level": "מתחיל",
-        "dur": "4 שבועות",
+        "dur": "4 חודשים",
         "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
       }
     },
@@ -278,11 +278,11 @@
       "candidate_score": 8,
       "new_course": {
         "name": "ChatGPT: Master Free AI Tools to Supercharge Productivity",
-        "url": "www.coursera.org/learn/chatgpt-master-free-ai-tools",
-        "desc": "הקורס מלמד כיצד להשתמש בכלים חינמיים של AI כמו ChatGPT כדי לשפר את הפרודוקטיביות. הוא כולל טכניקות לשיפור השיח עם AI ויישומים מעשיים.",
+        "url": "www.coursera.org/courses?query=free&skills=Artificial%20Intelligence",
+        "desc": "הקורס מלמד כיצד להשתמש בכלים חינמיים של AI כדי לשפר את הפרודוקטיביות שלך. הוא כולל טכניקות לניהול שיחות עם ChatGPT ולשימוש נכון בכלים שונים בתחום ה-AI.",
         "level": "מתחיל",
-        "dur": "4 שבועות",
-        "rating": "Coursera, 200K+ לומדים, חינם"
+        "dur": "3 - 6 חודשים",
+        "rating": "4.8 כוכבים, 9.5K ביקורות, חינם"
       }
     },
     {
@@ -292,12 +292,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy",
-        "url": "academy.claude.com",
-        "desc": "הצטרף לקורסים ולמדריכים של Claude Academy כדי ללמוד כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תרחישים ושימושים מעשיים.",
+        "name": "Claude Academy · Learn to work and build with Claude",
+        "url": "academy.claude.com/",
+        "desc": "הצטרפו לקורסים ולמדריכים של Claude Academy כדי ללמוד כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים מיועדים לכל הרמות ומספקים תובנות מעשיות לשימוש ב-Claude.",
         "level": "כל הרמות",
         "dur": "חינמי עם תעודה",
-        "rating": "Anthropic Academy, קורסים חינמיים, תעודה רשמית"
+        "rating": "Anthropic Academy, 50K+ לומדים, חינמי"
       }
     }
   ]
