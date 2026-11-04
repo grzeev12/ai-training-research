@@ -277,12 +277,12 @@
       "replaced_course_name": "OpenAI Developer Prompting Course",
       "candidate_score": 8,
       "new_course": {
-        "name": "ChatGPT: Master Free AI Tools to Supercharge Productivity",
-        "url": "www.coursera.org/courses?query=free&skills=Artificial%20Intelligence",
-        "desc": "הקורס מלמד כיצד להשתמש בכלים חינמיים של AI כדי לשפר את הפרודוקטיביות שלך. הוא כולל טכניקות לניהול שיחות עם ChatGPT ולשימוש נכון בכלים שונים בתחום ה-AI.",
+        "name": "Introduction to Generative AI",
+        "url": "www.coursera.org/learn/introduction-to-generative-ai",
+        "desc": "הקורס מציע מבוא לתחום ה-AI הגנרטיבי, כולל מושגים בסיסיים וטכניקות שימושיות. הוא מתאים למתחילים ומספק כלים לשיפור פרודוקטיביות.",
         "level": "מתחיל",
-        "dur": "3 - 6 חודשים",
-        "rating": "4.8 כוכבים, 9.5K ביקורות, חינם"
+        "dur": "1 - 4 שבועות",
+        "rating": "4.7 כוכבים, 13K ביקורות, חינם"
       }
     },
     {
@@ -292,11 +292,11 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy · Learn to work and build with Claude",
-        "url": "academy.claude.com/",
-        "desc": "הצטרפו לקורסים ולמדריכים של Claude Academy כדי ללמוד כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים מיועדים לכל הרמות ומספקים תובנות מעשיות לשימוש ב-Claude.",
-        "level": "כל הרמות",
-        "dur": "חינמי עם תעודה",
+        "name": "Anthropic Courses",
+        "url": "anthropic.skilljar.com",
+        "desc": "הקורס הזה מעניק לתלמידים מיומנויות הבנה של AI שמחזקות את הלמידה, תכנון הקריירה והצלחה אקדמית דרך שיתוף פעולה אחראי עם AI.",
+        "level": "מתחיל",
+        "dur": "4 שבועות",
         "rating": "Anthropic Academy, 50K+ לומדים, חינמי"
       }
     }
