@@ -3,33 +3,33 @@
     {
       "title": "How To Master Google Gemini in 2026 (Free Course)",
       "channel": "Paul J Lipsky",
-      "views": 676174,
-      "views_fmt": "676K",
+      "views": 677880,
+      "views_fmt": "678K",
       "duration": "34:46",
       "url": "https://www.youtube.com/watch?v=-_FizlRlfYs"
     },
     {
-      "title": "How to Use Google Gemini Al (Full Tutorial)",
-      "channel": "Kevin Stratvert",
-      "views": 373460,
-      "views_fmt": "373K",
-      "duration": "10:03",
-      "url": "https://www.youtube.com/watch?v=PDMcpthR88U"
+      "title": "Gemini Tutorial: How to Use the Google AI Ecosystem in 2026",
+      "channel": "AI Master",
+      "views": 127257,
+      "views_fmt": "127K",
+      "duration": "18:43",
+      "url": "https://www.youtube.com/watch?v=JWL0uiLjyIE"
     },
     {
-      "title": "The ONLY Google Gemini Tutorial You Need! How To Use Gemini Like a Pro in 18 Minutes",
-      "channel": "Charlie Chang",
-      "views": 324449,
-      "views_fmt": "324K",
-      "duration": "18:22",
-      "url": "https://www.youtube.com/watch?v=KSk8SOob79Q"
+      "title": "Ultimate Google Workspace AI Tutorial | Everything You Can Do with Gemini AI! (2026)",
+      "channel": "Stewart Gauld",
+      "views": 94925,
+      "views_fmt": "95K",
+      "duration": "18:11",
+      "url": "https://www.youtube.com/watch?v=igs5bw5P47s"
     }
   ],
   "ChatGPT Enterprise (OpenAI)": [
     {
       "title": "ChatGPT Tutorial: How to Use Chat GPT For Beginners",
       "channel": "Charlie Chang",
-      "views": 5005777,
+      "views": 5007653,
       "views_fmt": "5.0M",
       "duration": "27:51",
       "url": "https://www.youtube.com/watch?v=Gaf_jCnA6mc"
@@ -37,33 +37,25 @@
     {
       "title": "ChatGPT for Beginners - 2026 Edition",
       "channel": "AI Mastermind",
-      "views": 601284,
-      "views_fmt": "601K",
+      "views": 601968,
+      "views_fmt": "602K",
       "duration": "16:31",
       "url": "https://www.youtube.com/watch?v=hOe0maWOhp8"
     },
     {
       "title": "Learn 95% of ChatGPT Work in Under 20 Minutes",
       "channel": "Jeff Su",
-      "views": 520853,
-      "views_fmt": "521K",
+      "views": 526248,
+      "views_fmt": "526K",
       "duration": "19:35",
       "url": "https://www.youtube.com/watch?v=KmcTu2EigTs"
     }
   ],
   "Claude Enterprise (Anthropic)": [
     {
-      "title": "CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)",
-      "channel": "Nick Saraev",
-      "views": 2839297,
-      "views_fmt": "2.8M",
-      "duration": "4:10:43",
-      "url": "https://www.youtube.com/watch?v=QoQBzR1NIqI"
-    },
-    {
       "title": "The Ultimate Beginner’s Guide to Claude AI",
       "channel": "Metics Media",
-      "views": 2303414,
+      "views": 2348334,
       "views_fmt": "2.3M",
       "duration": "1:00:49",
       "url": "https://www.youtube.com/watch?v=9oJySubZRSA"
@@ -71,34 +63,42 @@
     {
       "title": "Claude Code - Full Tutorial for Beginners",
       "channel": "Tech With Tim",
-      "views": 1944518,
-      "views_fmt": "1.9M",
+      "views": 1950117,
+      "views_fmt": "2.0M",
       "duration": "35:49",
       "url": "https://www.youtube.com/watch?v=ntDIxaeo3Wg"
+    },
+    {
+      "title": "FULL Claude Tutorial for Beginners in 2026! (Become a PRO!)",
+      "channel": "AI Foundations",
+      "views": 1493598,
+      "views_fmt": "1.5M",
+      "duration": "49:17",
+      "url": "https://www.youtube.com/watch?v=rRrBbyv3ChM"
     }
   ],
   "Microsoft Azure AI Foundry": [
     {
       "title": "Introducing Azure AI Foundry - Everything you need for AI development",
       "channel": "Microsoft Mechanics",
-      "views": 304127,
-      "views_fmt": "304K",
+      "views": 304619,
+      "views_fmt": "305K",
       "duration": "12:54",
       "url": "https://www.youtube.com/watch?v=GD7MnIwAxYM"
     },
     {
       "title": "How to use Microsoft Azure AI Studio and Azure OpenAI models",
       "channel": "Adrian Twarog",
-      "views": 248497,
-      "views_fmt": "248K",
+      "views": 248522,
+      "views_fmt": "249K",
       "duration": "16:37",
       "url": "https://www.youtube.com/watch?v=fQ9RFR1KTbY"
     },
     {
       "title": "Microsoft Foundry - AI app & agent factory",
       "channel": "Microsoft Mechanics",
-      "views": 197291,
-      "views_fmt": "197K",
+      "views": 197623,
+      "views_fmt": "198K",
       "duration": "12:08",
       "url": "https://www.youtube.com/watch?v=C6rxEGJay70"
     }
@@ -107,7 +107,7 @@
     {
       "title": "Integrating Generative AI Models with Amazon Bedrock",
       "channel": "AWS Developers",
-      "views": 523637,
+      "views": 523994,
       "views_fmt": "524K",
       "duration": "14:19",
       "url": "https://www.youtube.com/watch?v=nSQrY-uPWLY"
@@ -115,7 +115,7 @@
     {
       "title": "Amazon Bedrock AgentCore Tutorial | Build, Deploy, Operate AI Agents using AgentCore",
       "channel": "codebasics",
-      "views": 150648,
+      "views": 151306,
       "views_fmt": "151K",
       "duration": "57:30",
       "url": "https://www.youtube.com/watch?v=cTBGIKAckKE"
@@ -123,7 +123,7 @@
     {
       "title": "Build a RAG based Generative AI Chatbot in 20 mins using Amazon Bedrock Knowledge Base",
       "channel": "Amazon Web Services",
-      "views": 115681,
+      "views": 115794,
       "views_fmt": "116K",
       "duration": "10:54",
       "url": "https://www.youtube.com/watch?v=hnyDDfo8e9Q"
