@@ -260,14 +260,14 @@
       "tool_name": "Gemini Enterprise (Google)",
       "replace_url": "www.coursera.org/professional-certificates/google-ai",
       "replaced_course_name": "Google AI Professional Certificate",
-      "candidate_score": 8,
+      "candidate_score": 9,
       "new_course": {
-        "name": "Google Workspace with Gemini Specialization",
-        "url": "www.coursera.org/specializations/gemini-for-google-workspace",
-        "desc": "ההתמחות הזו מציגה למורים ולסטודנטים את תכונות ה-AI הגנרטיבי של Google Workspace עם Gemini. הקורס כולל מצגות ותרגולים מעשיים לשיפור הידע והכישורים בתחום ה-AI.",
-        "level": "מתחיל עד בינוני",
+        "name": "Google AI Essentials Specialization",
+        "url": "www.coursera.org/specializations/ai-essentials-google",
+        "desc": "קורס זה הוא תוכנית בקצב עצמי שנועדה לעזור לאנשים בתפקידים ובתעשיות שונות לרכוש מיומנויות בינה מלאכותית כדי לשפר את הפרודוקטיביות שלהם. אין צורך בניסיון קודם.",
+        "level": "מתחיל",
         "dur": "4 שבועות",
-        "rating": "Coursera, 50K+ לומדים, חינמי לאודיט"
+        "rating": "Coursera, 1.8M+ לומדים, חינמי לאודיט"
       }
     },
     {
@@ -277,12 +277,12 @@
       "replaced_course_name": "OpenAI Developer Prompting Course",
       "candidate_score": 8,
       "new_course": {
-        "name": "ChatGPT Prompt Engineering for Developers",
-        "url": "www.coursera.org/learn/chatgpt-prompt-engineering-for-developers",
-        "desc": "קורס זה מלמד את עקרונות הנדסת פקודות עבור ChatGPT, כולל טכניקות לעיבוד שפה טבעית ואסטרטגיות לפיתוח שיחות. הוא מיועד למפתחים המעוניינים לשפר את היכולות של המודלים שלהם.",
-        "level": "מפתחים",
+        "name": "AI Foundations",
+        "url": "www.coursera.org/learn/ai-foundations",
+        "desc": "הקורס עוסק במודלים של שפה גדולה, טכניקות הנחיה, ושיפור השימוש בבינה מלאכותית. הוא מתאים למתחילים ומספק הבנה בסיסית של עקרונות הבינה המלאכותית.",
+        "level": "מתחיל",
         "dur": "4 שבועות",
-        "rating": "DeepLearning.AI, 4M+ לומדים, חינם"
+        "rating": "Coursera, 4.8/5, 1M+ לומדים, חינם"
       }
     },
     {
@@ -292,12 +292,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "Claude Academy",
-        "url": "academy.claude.com",
-        "desc": "הצטרפו לאקדמיה של קלוד ולמדו כיצד להשתמש בבינה מלאכותית בצורה בטוחה ויעילה. הקורסים כוללים תכנים על קלוד, קוד קלוד, והבנה של מודלים.",
+        "name": "20 Free Claude Courses & Certification",
+        "url": "fast.io/resources/claude-ai-courses-guide/",
+        "desc": "מדריך לקורסים החינמיים של אנתרופיק, כולל 20 קורסים והסמכה. הקורסים מכסים מגוון רחב של נושאים, כולל שימוש ב-API של Claude והבנת טכנולוגיות AI מתקדמות.",
         "level": "כל הרמות",
-        "dur": "קורסים חינמיים ללא הגבלה",
-        "rating": "פלטפורמת Anthropic, 22 קורסים חינמיים, ללא עלות"
+        "dur": "8+ שעות",
+        "rating": "Anthropic Academy, 50K+ לומדים, חינם"
       }
     }
   ]
