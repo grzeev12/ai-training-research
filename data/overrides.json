@@ -277,12 +277,12 @@
       "replaced_course_name": "OpenAI Developer Prompting Course",
       "candidate_score": 8,
       "new_course": {
-        "name": "AI Foundations",
-        "url": "www.coursera.org/learn/ai-foundations",
-        "desc": "הקורס עוסק במודלים של שפה גדולה, טכניקות הנחיה, ושיפור השימוש בבינה מלאכותית. הוא מתאים למתחילים ומספק הבנה בסיסית של עקרונות הבינה המלאכותית.",
+        "name": "AI For Everyone",
+        "url": "www.coursera.org/learn/ai-for-everyone",
+        "desc": "הקורס מציע סקירה כללית על הבינה המלאכותית, כולל מושגים בסיסיים, יישומים בעולם האמיתי והשפעתה על עסקים. הוא מיועד לכל מי שמעוניין להבין את הפוטנציאל של AI.",
         "level": "מתחיל",
         "dur": "4 שבועות",
-        "rating": "Coursera, 4.8/5, 1M+ לומדים, חינם"
+        "rating": "Coursera, 1M+ לומדים, חינם"
       }
     },
     {
@@ -292,12 +292,12 @@
       "replaced_course_name": "Anthropic Academy Guide: All 13 Free Claude Courses",
       "candidate_score": 8,
       "new_course": {
-        "name": "20 Free Claude Courses & Certification",
-        "url": "fast.io/resources/claude-ai-courses-guide/",
-        "desc": "מדריך לקורסים החינמיים של אנתרופיק, כולל 20 קורסים והסמכה. הקורסים מכסים מגוון רחב של נושאים, כולל שימוש ב-API של Claude והבנת טכנולוגיות AI מתקדמות.",
+        "name": "10 Free Anthropic AI Courses",
+        "url": "blog.coursera.org/10-free-anthropic-ai-courses-launch-today-on-coursera-with-more-coming-each-month-to-help-learners-stay-current/",
+        "desc": "הקורסים מציעים הכשרה על נושאים שונים הקשורים ל-AI, כולל הבנת הבסיסים של Claude, תכנות עם Claude, ושימושים מעשיים בעסקים. הקורסים מיועדים למתחילים ומתקדמים כאחד.",
         "level": "כל הרמות",
-        "dur": "8+ שעות",
-        "rating": "Anthropic Academy, 50K+ לומדים, חינם"
+        "dur": "4 שבועות",
+        "rating": "Coursera, 500K+ לומדים, חינמי עם תעודה"
       }
     }
   ]
